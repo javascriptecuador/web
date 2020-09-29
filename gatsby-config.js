@@ -24,6 +24,24 @@ module.exports = {
         icon: `src/images/tailwind-icon.png`,
       },
     },
+  {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `blog-entries`,
+      path: `${__dirname}/src/pages/blog`,
+    },
+  },
+    // `gatsby-plugin-mdx`,
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.mdx`, `.md`],
+        defaultLayouts: {
+          // articles: require.resolve('./src/templates/articles-layout.js'),
+          default: require.resolve('./src/templates/blog-entry.js'),
+        },
+      },
+    },
     {
       resolve: `gatsby-plugin-postcss`,
       options: {

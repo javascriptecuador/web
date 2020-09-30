@@ -12,15 +12,16 @@
   },
   "settings": {
     "react": {
-       "version": "detect"
-     }
-  },
-  "extends": [
-    // https://eslint.org/docs/rules/
-    "eslint:recommended",
-    // https://github.com/yannickcr/eslint-plugin-react#recommended
-    "plugin:react/recommended",
-    // https://github.com/benmosher/eslint-plugin-import
-    "plugin:import/recommended"
-  ]
+      "version": "detect"
+    }
+  }
+  // },
+  // "extends": [
+  //   // https://eslint.org/docs/rules/
+  //   "eslint:recommended",
+  //   // https://github.com/yannickcr/eslint-plugin-react#recommended
+  //   "plugin:react/recommended",
+  //   // https://github.com/benmosher/eslint-plugin-import
+  //   "plugin:import/recommended"
+  // ]
 }

@@ -1,4 +1,4 @@
-## Contributing
+## ¿Cómo contribuir?
 
 Hola, 👋 a todos. Las contribuciones a este repositorio son bienvenidas. Si deseas mejorar esta hoja de referencia o traducirla a otros idiomas, ¡considera abrir un nuevo  [issue](https://github.com/javascriptecuador/web/issues/new)! y lo trataremos juntos.
 

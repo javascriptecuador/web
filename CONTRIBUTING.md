@@ -38,3 +38,61 @@ Escribe un título y una descripción que explique los cambios que hiciste en tu
 ### Mensajes de Commit 
 
 Para este proyecto usaremos [commitlint](https://commitlint.js.org/#/) que usa [Conventionalcommits](https://www.conventionalcommits.org/en/v1.0.0/), esto nos proporcionara un estándar al momento de escribir un commit e identificar el propósito del mismo. 
+
+### Guía Conventional Commits
+
+A continuación tenemos una estructura completa de un Conventional Commit:
+
+```
+[tipo]([ámbito opcional]): [descripción]
+
+[cuerpo opcional]
+
+[nota de pie opcional]
+```
+
+Aquí tenemos una estructura con solo los campos obligatorios:
+
+```
+[tipo]: [descripción]
+```
+
+Ejemplos:
+
+```
+feat(home): añadir pie alternativo al home
+
+Implementar una versión alternativa del pie de página
+Agregar iconos alternativos en la versión móvil del pie de página
+
+Soluciona la incidencia #3
+```
+
+```
+feat: cambiar títulos y estilos en la página de inicio
+```
+
+#### Explicación de los campos
+
+**Tipo (obligatorio)** 
+Los principales tipos de commits son
+- **fix:** corrige un error
+- **feat** introduce nuevas funcionalidades
+
+Se permiten otros tipos de commit pero se recomienda los que usan Angular Convention
+
+**Ámbito (opcional)** 
+Se puede agregar un ámbito al tipo de commit para proveer información contextual adicional. Es opcional y se escribe entre paréntesis. Ejemplo:
+
+```
+feat(parser): añadir capacidad de parsear arrays
+```
+
+**Descripción (obligatoria)** 
+Es obligatoria una descripción corta de los cambios realizados en el código.
+
+**Cuerpo (opcional)** 
+Puede agregarse después de la descripción, dando información adicional acerca de los cambios en el código. Debe iniciar con una línea en blanco después de la descripción.
+
+**Nota de pie (opcional)** 
+Puede agregarse tras una línea en blanco después del cuerpo o después de la descripción en caso de que no haya un cuerpo. Debe contener referencias adicionales a los números de problemas registrados sobre el cambio del código (ejemplo corrige incidencia #154).

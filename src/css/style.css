@@ -21,3 +21,92 @@ h4 {
 
 /*! purgecss end ignore */
 @tailwind utilities;
+
+/* Contenedor con padding */
+
+.ec-container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* Componente Home */
+
+.home-section-container {
+    padding-top: 10em;
+    padding-bottom: 5em;
+    font-family: Roboto;
+    position: relative;
+    background-image: url("/static/iconos/path.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+@media (max-width: 800px) {
+    .home-section-container {
+        background-position: 0% 50%;
+    }
+}
+
+.comunity-description-container {
+    width: 45%;
+    margin-bottom: 2em;
+}
+
+@media (max-width: 800px) {
+    .comunity-description-container {
+        width: 100%;
+    }
+}
+
+.comunity-description-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 1px;
+    color: #091133;
+    margin-bottom: .6em;
+}
+
+.comunity-description-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #4E4E4E;
+    margin-bottom: 1.5em;
+}
+
+.comunity-description-body {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    font-feature-settings: 'ss06' on, 'ss07' on;
+    color: #252525;
+}
+
+.comunity-description-body p {
+    margin-bottom: .7em;
+}
+
+/* Fin componente Home */
+
+/* Componente Redes Sociales */
+
+.section-home-social-networks {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+}
+
+.section-home-social-networks div {
+    margin-top: 1.5em;
+    max-width: 100%;
+    display: flex;
+}
+
+.section-home-social-networks a {
+    margin-right: 2em;
+}
+
+/* Fin componente Redes Sociales */

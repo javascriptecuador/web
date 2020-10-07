@@ -10,24 +10,16 @@ Bienvenido a la comunidad oficial de Javascript en ecuador, en dónde podrás co
 
 En Javascript Ecuador creemos en que todos tenemos algo que aportar, por lo que abrimos espacios a todos quienes tengan ideas, iniciativas y/o quieran contibuir a los proyectos desarrollados y mantenidos por la comunidad.
 
-No importa el grado de experiencia que tengas o las tecnologías con las que trabajes. Puedes unirte a nuestra comunidad de [telegram](https://t.me/javascriptecuador) estaremos encantados de que formes parte de nuestra comunidad :smile: .
+No importa el grado de experiencia que tengas o las tecnologías con las que trabajes. Pasa a saludar en el canal de la comunidad en [telegram](https://t.me/javascriptecuador) estaremos encantados de que formes parte :smile: .
 
 ## ¿Como contribuir?
 
 Este es nuestro primer repositorio público al que puedes contribuir, conoce más sobre cómo hacerlo en nuestra Guía de contribuición. En este proyecto se contruirá el sitio web oficial de la comunidad, así como el blog al que muy pronto también podrás hacer tus entradas y en el que informaremos de todo lo que esté pasando alrededor de javascript, tutoriales, debates, etc. **[Puedes revisar la guía de estilos en el prototipo en Figma](https://www.figma.com/file/w2VP8mKwNivTOGqsdvGMVe/Prototipo-Web-Ecuador.js?node-id=0%3A1)**
 
-## Tecnologias
-
-Actualmente estamos trabajando con tecnologias de javascript como Gatsby, entonces si has trabajado con React seguro se te hara muy similar trabajar con este framework :exclamation:.
-
-## Contribuidores :trophy:
-
 Puedes hecharle un vistazo a nuestra [guia de contribucion](https://github.com/javascriptecuador/web/blob/master/CONTRIBUTING.md).
 
 Cualquier tipo de contribucion es bienvenida.
 
-- **[Israel Teneda](https://github.com/israteneda)**
-- **[Eduardo Ayora](https://github.com/EduardoAyora)**
-- **[Edisson Reinoso](https://github.com/edzzn)**
-- **[Richard Palacios](https://github.com/rpalaciosg)**
-- **[Jordan Jaramillo](https://github.com/jordanrjcode)**
+## Tecnologias
+
+Actualmente estamos trabajando con tecnologias de javascript como Gatsby, entonces si has trabajado con React seguro se te hara muy similar trabajar con este framework :exclamation:.

@@ -1,0 +1,62 @@
+---
+title: Deploy de un sitio de Gatsby en Netlify
+date: "2020-10-05"
+updated: "2020-10-05"
+description: Como realizar el deploy de un sitio construido con Gatsby a Netlify
+---
+
+Esta es la guía base para realizar el deploy de una página construida con el framework Gatsby,
+en este caso se realizará el deploy de la página de la comunidad de JavaScript Ecuador.
+
+Una vez tenemos el sitio alojado en un repositorio de GitHub tenemos que conectarlo con la plataforma
+[Netlify](https://www.netlify.com/).
+
+1. Añadir el repostiorio desde GitHub
+
+![](https://cdn.netlify.com/3803d207cbf97389f0d37ab7ee65580ee52c217f/a6a2f/img/blog/new_site_button.png)
+
+2. Conectar el repositorio
+
+Hacer clic en el botón que lleva a la pantalla donde Netlify se conecta al repositorio de GitHub. 
+
+![](https://cdn.netlify.com/6cc161f3ced8f060296bc8aeacd7fb39e5159274/743e1/img/blog/create_link_repo.png)
+
+Cuando se realiza un push a GitHub, Netlify realiza la actualización de la página automáticamente
+
+3. Autorizar a Netlify
+
+![](https://cloud.githubusercontent.com/assets/6520639/9803635/71760370-57d9-11e5-8bdb-850aa176a22c.png)
+
+Hacer clic en el botón Autorizar aplicación para permitir que Netlify y GitHub se comuniquen entre sí. 
+
+4. Elegir repositorio
+
+![](https://cdn.netlify.com/cd1582720ed9ca7c74d47fcb3a5330ef4e210633/813a3/img/blog/choose_repo.png)
+
+Ahora que se ha conectado Netlify y GitHub, aparece una lista de los repositorios de Git. Seleccionar el que se desea deployar.
+
+5. Configurar ajustes del sitio
+
+Aquí se configura las opciones para implementar el sitio.
+
+![](https://cdn.netlify.com/ca977361e618e38b818f045fc0fcbf856ec1124b/7dc39/img/blog/deploy_settings.png)
+
+6. Construir en el sitio
+
+Ahora es el momento de sentarse y relajarse, tomar algo frío para beber, rascar al perro detrás de las orejas o levantarse y 
+caminar. (Probablemente haya estado frente a la computadora durante demasiado tiempo hoy, ¿verdad?) Netlify hace el resto, y se puede ver el progreso.
+
+![](https://cdn.netlify.com/99909c899353de90f7262b21efcc4dcf6aff963d/73df2/img/blog/deploy_progress.png)
+
+7. Realizar cambios
+
+Cuando se realiza cambios en el sitio, estos se reflejan automáticamente de forma local, pero ¿qué pasa con la versión alojada de Netlify? 
+Cada vez que se confirma y envía cambios a GitHub, se activa una nueva compilación en Netlify, y tan pronto como finaliza la compilación, 
+los cambios también están disponibles en Internet.
+
+8. Listo
+
+Espera, ¿pensaste que habría más? ¡No! Netlify lo ha hecho, incluido darle un nombre temporal al sitio. 
+El sitio estará activo para que lo vea el público y si se desea se puede agregar un dominio personalizado. 
+
+<small>Tomado de <a href="https://www.netlify.com/blog/2016/02/24/a-step-by-step-guide-gatsby-on-netlify/#connecting-to-netlify">A Step-by-Step Guide: Gatsby on Netlify</a></small>

@@ -12,8 +12,11 @@ export default function BlogEntry({ pageContext, children }) {
         title="About"
       />
 
-      <section className="flex flex-col md:flex-row">
+      <section className="flex-1 w-full max-w-4xl px-4 py-8 mx-auto md:px-8 md:py-16">
         <h1>{pageContext.frontmatter.title}</h1>
+        <br/>
+        <h4>{pageContext.frontmatter.description}</h4>
+        <br/>
         <section>{children}</section>
         {/* <div className="md:w-2/3 md:mr-8"></div> */}
       </section>

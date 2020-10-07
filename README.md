@@ -14,7 +14,11 @@ No importa el grado de experiencia que tengas o las tecnologías con las que tra
 
 ## ¿Como contribuir?
 
-Este es nuestro primer repositorio público al que puedes contribuir, conoce más sobre cómo hacerlo en nuestra Guía de contribuición. En este proyecto se contruirá el sitio web oficial de la comunidad, así como el blog al que muy pronto también podrás hacer tus entradas y en el que informaremos de todo lo que esté pasando alrededor de javascript, tutoriales, debates, etc. **Puedes revisar la guía de estilos en el prototipo en Figma** ## Tecnologias Actualmente estamos trabajando con tecnologias de javascript como Gatsby, entonces si has trabajado con React seguro se te hara muy similar trabajar con este framework :exclamation:.
+Este es nuestro primer repositorio público al que puedes contribuir, conoce más sobre cómo hacerlo en nuestra Guía de contribuición. En este proyecto se contruirá el sitio web oficial de la comunidad, así como el blog al que muy pronto también podrás hacer tus entradas y en el que informaremos de todo lo que esté pasando alrededor de javascript, tutoriales, debates, etc. **Puedes revisar la guía de estilos en el prototipo en Figma**
+
+## Tecnologias
+
+Actualmente estamos trabajando con tecnologias de javascript como Gatsby, entonces si has trabajado con React seguro se te hara muy similar trabajar con este framework :exclamation:.
 
 ## Contribuidores :trophy:
 

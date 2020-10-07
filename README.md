@@ -14,13 +14,15 @@ No importa el grado de experiencia que tengas o las tecnologías con las que tra
 
 ## ¿Como contribuir?
 
-Este es nuestro primer repositorio público al que puedes contribuir, conoce más sobre cómo hacerlo en nuestra Guía de contribuición. En este proyecto se contruirá el sitio web oficial de la comunidad, así como el blog al que muy pronto también podrás hacer tus entradas y en el que informaremos de todo lo que esté pasando alrededor de javascript, tutoriales, debates, etc. **Puedes revisar la guía de estilos en el prototipo en Figma**
+Este es nuestro primer repositorio público al que puedes contribuir, conoce más sobre cómo hacerlo en nuestra Guía de contribuición. En este proyecto se contruirá el sitio web oficial de la comunidad, así como el blog al que muy pronto también podrás hacer tus entradas y en el que informaremos de todo lo que esté pasando alrededor de javascript, tutoriales, debates, etc. **[Puedes revisar la guía de estilos en el prototipo en Figma](https://www.figma.com/file/w2VP8mKwNivTOGqsdvGMVe/Prototipo-Web-Ecuador.js?node-id=0%3A1)**
 
 ## Tecnologias
 
 Actualmente estamos trabajando con tecnologias de javascript como Gatsby, entonces si has trabajado con React seguro se te hara muy similar trabajar con este framework :exclamation:.
 
 ## Contribuidores :trophy:
+
+Puedes hecharle un vistazo a nuestra [guia de contribucion](https://github.com/javascriptecuador/web/blob/master/CONTRIBUTING.md).
 
 Cualquier tipo de contribucion es bienvenida.
 

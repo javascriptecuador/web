@@ -18,6 +18,11 @@ h4 {
     @apply text-2xl;
 }
 
+/* Fixes ol styling for markdown */
+ol {
+    @apply list-decimal my-3 ml-6 font-medium text-2xl;
+}
+
 
 /*! purgecss end ignore */
 @tailwind utilities;

@@ -1,7 +1,8 @@
 import React from 'react';
-import PhotoSlider from './photoSlider';
+import PhotoSlider from '../photo-slider/photo-slider';
+import './community-section.css'
 
-const Community = () => {
+const CommunitySection = () => {
   const photos = [
     {
       name: 'photo1',
@@ -36,4 +37,4 @@ const Community = () => {
   );
 };
 
-export default Community;
+export default CommunitySection;

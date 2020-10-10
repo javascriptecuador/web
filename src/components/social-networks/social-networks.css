@@ -1,0 +1,19 @@
+/**
+ * Styles For the Social Networks Component
+ */
+.social-networks {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+}
+
+.social-networks div {
+    margin-top: 1.5em;
+    max-width: 100%;
+    display: flex;
+}
+
+.social-networks a {
+    margin-right: 2em;
+}

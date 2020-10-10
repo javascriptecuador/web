@@ -1,0 +1,31 @@
+/**
+ * Styles For the Hero Section
+ */
+.hero-section {
+    width: 45%;
+    margin-bottom: 2em;
+}
+
+@media (max-width: 800px) {
+    .hero-section {
+        width: 100%;
+    }
+}
+
+.hero-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 1px;
+    color: #091133;
+    margin-bottom: .6em;
+}
+
+.hero-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #4E4E4E;
+    margin-bottom: 1.5em;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import CommunityButton from '../community-button/community-button';
 import PhotoSlider from '../photo-slider/photo-slider';
 import './community-section.css'
 
@@ -33,6 +34,7 @@ const CommunitySection = () => {
   return (
     <div className="community">
       <PhotoSlider photos={photos} />
+      <CommunityButton type="primary">Código de Conducta</CommunityButton>
     </div>
   );
 };

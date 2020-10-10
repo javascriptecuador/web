@@ -76,6 +76,15 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "miguel-rios-r",
+      "name": "Miguel Rios R",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/25510181?v=4",
+      "profile": "https://miguelriosr.com/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7

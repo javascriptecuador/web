@@ -40,6 +40,15 @@
         "doc",
         "design"
       ]
+    },
+    {
+      "login": "jordanrjcode",
+      "name": "Jordan Jaramillo",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/62086742?v=4",
+      "profile": "https://github.com/jordanrjcode",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7

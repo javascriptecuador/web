@@ -28,6 +28,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/israteneda"><img src="https://avatars2.githubusercontent.com/u/20668624?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Israel Teneda</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=israteneda" title="Code">💻</a> <a href="https://github.com/javascriptecuador/web/commits?author=israteneda" title="Documentation">📖</a> <a href="#design-israteneda" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/jordanrjcode"><img src="https://avatars2.githubusercontent.com/u/62086742?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jordan Jaramillo</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=jordanrjcode" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/EduardoAyora"><img src="https://avatars1.githubusercontent.com/u/49033198?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eduardo Ayora Ochoa</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=EduardoAyora" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.davidpadilla.dev/"><img src="https://avatars3.githubusercontent.com/u/25573926?v=4?s=100" width="100px;" alt=""/><br /><sub><b>David Padilla</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=cesardlinx" title="Code">💻</a></td>
   </tr>
 </table>
 

@@ -1,0 +1,49 @@
+/**
+ * Styles For the Hero Section
+ */
+.hero-section {
+    padding-top: 5em;
+    /* padding-bottom: 9em; */
+}
+
+@media only screen and (min-width: 800px) {
+    .hero-section {
+        padding-bottom: .5em;
+    }
+}
+
+@media only screen and (min-width: 1190px) {
+    .hero-section {
+        padding-bottom: 9em;
+    }
+}
+
+.hero-text {
+    width: 100%;
+    padding-bottom: 2em;
+}
+
+@media (min-width: 800px) {
+    .hero-text {
+        width: 45%;
+    }
+}
+
+.hero-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 1px;
+    color: #091133;
+    margin-bottom: .6em;
+}
+
+.hero-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #4E4E4E;
+    margin-bottom: 1.5em;
+    background-color: transparent;
+}

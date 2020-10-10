@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Slider from 'react-slick';
-import '../css/photo-slider.css';
+import './photo-slider.css';
 
 const PhotoSlider = ({ photos }) => {
   const settings = {

@@ -1,8 +1,8 @@
 import React from "react";
 
-import Layout from "../components/layout";
+import Layout from "../components/layout/layout";
 import SEO from "../components/seo";
-import HomeSection from '../components/homeSection'
+import Home from './home'
 
 
 function IndexPage() {
@@ -12,9 +12,9 @@ function IndexPage() {
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
         title="Home"
       />
-      
-      <HomeSection />
-      
+
+      <Home />
+
     </Layout>
   );
 }

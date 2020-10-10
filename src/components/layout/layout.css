@@ -1,0 +1,14 @@
+/* Componente Layout */
+
+.layout {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: url("../../images/background/path.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.main-content {
+    flex: 1;
+}

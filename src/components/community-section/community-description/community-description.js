@@ -1,4 +1,5 @@
 import React from 'react';
+import './community-description.css'
 
 const CommunityDescription = () => (
     <div className="community-description">

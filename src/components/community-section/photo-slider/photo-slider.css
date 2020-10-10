@@ -3,19 +3,15 @@
  */
 .photo-slider {
   width: 100%;
+  max-width: 670px;
   height: 386px;
   box-sizing: border-box;
   border-radius: 20px;
+  position: relative;
 }
 
 .photo-slider .slick-list {
   border-radius: 1em;
-}
-
-@media only screen and (min-width: 600px) {
-  .photo-slider {
-    width: 598px;
-  }
 }
 
 /* Slider Dots */

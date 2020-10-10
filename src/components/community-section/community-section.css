@@ -2,5 +2,138 @@
  * Styles For the Community Section
  */
 .community-section {
-    margin-top: 2em;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    position: relative;
+}
+
+@media only screen and (min-width: 800px) {
+  .community-section {
+    flex-direction: row;
+    height: 840px;
+  }
+}
+
+.community-section .section-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-block.slider {
+    width: 100%;
+    padding-right: 0;
+    background-image: url('../../images/background/grid.svg');
+    background-repeat: no-repeat;
+    background-position: 90% 40%;
+    padding-top: 5em;
+    padding-bottom: 0;
+}
+
+@media only screen and (min-width: 500px) {
+    .section-block.slider {
+       padding-bottom: 10em;
+       padding-right: 0;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .section-block.slider {
+        width: 60%;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 10%;
+    }
+}
+
+.section-block.info {
+    width: 100%;
+}
+
+@media only screen and (min-width: 800px) {
+  .section-block.info {
+      width: 40%;
+  }
+}
+
+.section-block .call-to-action {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.call-to-action .community-button{
+   margin-bottom: 1em;
+}
+
+@media only screen and (min-width: 1256px) {
+    .section-block .call-to-action {
+        flex-direction: row;
+    }
+
+    .call-to-action .community-button{
+        margin-bottom: 0;
+    }
+}
+
+.section-block .heading {
+    font-weight: 700;
+    background-color: rgba(247, 224, 24, 0.81);
+    height: 51px;
+    line-height: 51px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.section-block .headings {
+    list-style-type: disc;
+}
+
+/* Headings */
+.heading-item-title {
+    font-size: 24px;
+    margin-left: 1em;
+    padding-right: 1em;
+}
+
+.heading-item-subtitle {
+    font-size: 12px;
+    padding-left: 2em;
+    margin-left: 1.7em;
+}
+
+.heading.title {
+    transform: rotate(3deg);
+    font-size: 36px
+}
+
+.heading.subtitle {
+    transform: rotate(-3deg);
+    font-size: 24px;
+}
+
+/* Widgets */
+.widget {
+    position: absolute;
+    z-index: 500;
+    display: none;
+}
+
+@media only screen and (min-width: 560px) {
+  .widget {
+      display: block;
+  }
+}
+
+.widget.circle {
+    top: -85px;
+    right: 13%;
+}
+
+.widget.square {
+    bottom: -7em;
 }

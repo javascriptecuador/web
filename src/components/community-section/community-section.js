@@ -1,6 +1,9 @@
 import React from 'react';
-import CommunityButton from '../community-button/community-button';
-import PhotoSlider from '../photo-slider/photo-slider';
+import CommunityButton from './community-button/community-button';
+import CommunityDescription from './community-description/community-description';
+import PhotoSlider from './photo-slider/photo-slider';
+import circleWidget from '../../images/widgets/circle.svg'
+import squareWidget from '../../images/widgets/square.svg'
 import './community-section.css'
 
 const CommunitySection = () => {
@@ -32,9 +35,32 @@ const CommunitySection = () => {
     },
   ];
   return (
-    <div className="community">
-      <PhotoSlider photos={photos} />
-      <CommunityButton type="primary">Código de Conducta</CommunityButton>
+    <div className="community-section ec-container">
+      <div className="section-block slider">
+        <PhotoSlider photos={photos} />
+      </div>
+      <div className="section-block info">
+        <ul className="headings">
+          <li className="heading-item-title">
+            <h3 className="heading title">Comunidad</h3>
+          </li>
+          <li className="heading-item-subtitle">
+            <h4 className="heading subtitle">Javascript del Ecuador</h4>
+          </li>
+        </ul>
+        {/*
+         */}
+        <CommunityDescription />
+        <div className="call-to-action">
+          <CommunityButton type="secondary">
+            Conocer a la Comunidad
+          </CommunityButton>
+          <CommunityButton type="secondary">Cómo ayudar?</CommunityButton>
+          <CommunityButton type="primary">Código de Conducta</CommunityButton>
+        </div>
+      </div>
+      <img className="widget circle" src={circleWidget}  />
+      <img className="widget square" src={squareWidget}  />
     </div>
   );
 };

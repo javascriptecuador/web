@@ -20,8 +20,6 @@ Este es nuestro primer repositorio público al que puedes contribuir, conoce má
 
 El sitio trabaja con el generador de sitios estáticos Gatsby, si has trabajado con React seguro se te hara muy similar trabajar con este framework.
 
-Puedes revisar la guía de estilos en el [prototipo en Figma](https://www.figma.com/file/w2VP8mKwNivTOGqsdvGMVe/Prototipo-Web-Ecuador.js?node-id=0%3A1)
-
 ## Contribuidores ✨
 
 Gracias a estos excelentes desarrolladores ([emoji key](https://allcontributors.org/docs/en/emoji-key)):

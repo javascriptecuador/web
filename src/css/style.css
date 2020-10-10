@@ -27,29 +27,21 @@ ol {
 /*! purgecss end ignore */
 @tailwind utilities;
 
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 /* Contenedor con padding */
 
 .ec-container {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
+
 
 /* Componente Home */
-
 .home-section-container {
-    padding-top: 10em;
-    padding-bottom: 5em;
     font-family: Roboto;
     position: relative;
-    background-image: url("../images/background/path.svg");
-    background-repeat: no-repeat;
-    background-position: right;
 }
-
-@media (max-width: 800px) {
-    .home-section-container {
-        background-position: 0% 50%;
-    }
-}
-
 /* Fin componente Home */

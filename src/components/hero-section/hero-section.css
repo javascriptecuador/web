@@ -2,13 +2,30 @@
  * Styles For the Hero Section
  */
 .hero-section {
-    width: 45%;
-    margin-bottom: 2em;
+    padding-top: 5em;
+    /* padding-bottom: 9em; */
 }
 
-@media (max-width: 800px) {
+@media only screen and (min-width: 800px) {
     .hero-section {
-        width: 100%;
+        padding-bottom: .5em;
+    }
+}
+
+@media only screen and (min-width: 1190px) {
+    .hero-section {
+        padding-bottom: 9em;
+    }
+}
+
+.hero-text {
+    width: 100%;
+    padding-bottom: 2em;
+}
+
+@media (min-width: 800px) {
+    .hero-text {
+        width: 45%;
     }
 }
 
@@ -28,4 +45,5 @@
     letter-spacing: 1px;
     color: #4E4E4E;
     margin-bottom: 1.5em;
+    background-color: transparent;
 }

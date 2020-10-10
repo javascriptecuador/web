@@ -1,8 +1,7 @@
 <h1 align="center">JavaScript Ecuador</h1>
 <div align="center">
 
-[![Technoly](https://img.shields.io/badge/Main%20Tech-Gatsby-blueviolet)](https://www.gatsbyjs.com/) [![Framework](https://img.shields.io/badge/Framework-React%20JS-blue)](https://es.reactjs.org/) [![Contribuiting](https://img.shields.io/badge/How%20to-Contribute-yellow)](https://github.com/javascriptecuador/web/blob/master/CONTRIBUTING.md)  [![Prototype](https://img.shields.io/badge/Prototype-Figma-orange)](https://github.com/javascriptecuador/web/blob/master/CONTRIBUTING.md) 
-[![Telegram](https://img.shields.io/badge/Channel-Telegram-informational)](https://t.me/javascriptecuador)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2490fe9d-899a-4fce-93ea-5ecbd7df5499/deploy-status)](https://app.netlify.com/sites/javascriptecuador/deploys) [![Technoly](https://img.shields.io/badge/Main%20Tech-Gatsby-blueviolet)](https://www.gatsbyjs.com/) [![Framework](https://img.shields.io/badge/Framework-React%20JS-blue)](https://es.reactjs.org/) [![Contribuiting](https://img.shields.io/badge/How%20to-Contribute-yellow)](https://github.com/javascriptecuador/web/blob/master/CONTRIBUTING.md) [![Prototype](https://img.shields.io/badge/Prototype-Figma-orange)](https://www.figma.com/file/w2VP8mKwNivTOGqsdvGMVe/Prototipo-Web-Ecuador.js?node-id=0%3A1) [![Telegram](https://img.shields.io/badge/Channel-Telegram-informational)](https://t.me/javascriptecuador)
 
 </div>
 Bienvenido a la comunidad oficial de JavaScript en Ecuador, en donde podrás contribuir, aprender, enseñar y compartir con personas realmente apasionadas por JavaScript y las tecnologías a su alrededor.

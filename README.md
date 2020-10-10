@@ -25,7 +25,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://richardpalaciosg.dev/"><img src="https://avatars0.githubusercontent.com/u/11642622?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Richard Palacios G</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=rpalaciosg" title="Code">💻</a> <a href="https://github.com/javascriptecuador/web/commits?author=rpalaciosg" title="Documentation">📖</a> <a href="#design-rpalaciosg" title="Design">🎨</a></td>
     <td align="center"><a href="http://edzzn.com/"><img src="https://avatars3.githubusercontent.com/u/14936466?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Edisson Reinozo</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=edzzn" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/israteneda"><img src="https://avatars2.githubusercontent.com/u/20668624?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Israel Teneda</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=israteneda" title="Code">💻</a> <a href="https://github.com/javascriptecuador/web/commits?author=israteneda" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/israteneda"><img src="https://avatars2.githubusercontent.com/u/20668624?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Israel Teneda</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=israteneda" title="Code">💻</a> <a href="https://github.com/javascriptecuador/web/commits?author=israteneda" title="Documentation">📖</a> <a href="#design-israteneda" title="Design">🎨</a></td>
   </tr>
 </table>
 

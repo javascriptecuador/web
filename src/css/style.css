@@ -52,18 +52,22 @@ ol {
     }
 }
 
-.comunity-description-container {
+.community {
+    margin-top: 2em;
+}
+
+.community-description-container {
     width: 45%;
     margin-bottom: 2em;
 }
 
 @media (max-width: 800px) {
-    .comunity-description-container {
+    .community-description-container {
         width: 100%;
     }
 }
 
-.comunity-description-title {
+.community-description-title {
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
@@ -72,7 +76,7 @@ ol {
     margin-bottom: .6em;
 }
 
-.comunity-description-subtitle {
+.community-description-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
@@ -81,7 +85,7 @@ ol {
     margin-bottom: 1.5em;
 }
 
-.comunity-description-body {
+.community-description-body {
     font-weight: 300;
     font-size: 18px;
     line-height: 28px;
@@ -89,7 +93,7 @@ ol {
     color: #252525;
 }
 
-.comunity-description-body p {
+.community-description-body p {
     margin-bottom: .7em;
 }
 

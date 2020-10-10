@@ -1,0 +1,91 @@
+{
+  "projectName": "web",
+  "projectOwner": "javascriptecuador",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "rpalaciosg",
+      "name": "Richard Palacios G",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/11642622?v=4",
+      "profile": "https://richardpalaciosg.dev/",
+      "contributions": [
+        "code",
+        "doc",
+        "design"
+      ]
+    },
+    {
+      "login": "edzzn",
+      "name": "Edisson Reinozo",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/14936466?v=4",
+      "profile": "http://edzzn.com/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "israteneda",
+      "name": "Israel Teneda",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/20668624?v=4",
+      "profile": "https://github.com/israteneda",
+      "contributions": [
+        "code",
+        "doc",
+        "design"
+      ]
+    },
+    {
+      "login": "jordanrjcode",
+      "name": "Jordan Jaramillo",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/62086742?v=4",
+      "profile": "https://github.com/jordanrjcode",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "EduardoAyora",
+      "name": "Eduardo Ayora Ochoa",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/49033198?v=4",
+      "profile": "https://github.com/EduardoAyora",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "cesardlinx",
+      "name": "David Padilla",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/25573926?v=4",
+      "profile": "https://www.davidpadilla.dev/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "FreddieAbad",
+      "name": "Freddy Abad",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/38579765?v=4",
+      "profile": "https://github.com/FreddieAbad",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "miguel-rios-r",
+      "name": "Miguel Rios R",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/25510181?v=4",
+      "profile": "https://miguelriosr.com/",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}

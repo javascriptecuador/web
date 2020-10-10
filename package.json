@@ -44,6 +44,7 @@
   },
   "devDependencies": {
     "@tailwindcss/custom-forms": "0.2.1",
+    "all-contributors-cli": "^6.19.0",
     "autoprefixer": "9.8.6",
     "babel-eslint": "10.1.0",
     "cssnano": "4.1.10",

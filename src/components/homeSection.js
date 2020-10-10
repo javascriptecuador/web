@@ -1,12 +1,14 @@
-import React from 'react'
-import ComunityDescription from './comunityDescription'
-import SocialNetworks from './socialNetworks'
+import React from 'react';
+import CommunityDescription from './communityDescription';
+import SocialNetworks from './socialNetworks';
+import Community from './community';
 
 export default function homeSection() {
-    return (
-        <div className="ec-container home-section-container">
-            <ComunityDescription />
-            <SocialNetworks />
-        </div>
-    )
+  return (
+    <div className='ec-container home-section-container'>
+      <CommunityDescription />
+      <SocialNetworks />
+      <Community />
+    </div>
+  );
 }

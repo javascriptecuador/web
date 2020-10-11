@@ -27,22 +27,22 @@ Este repositorio es posible gracias a estos excelentes desarrolladores ([emoji k
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://richardpalaciosg.dev/"><img src="https://avatars0.githubusercontent.com/u/11642622?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Richard Palacios G</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=rpalaciosg" title="Code">💻</a> <a href="https://github.com/javascriptecuador/web/commits?author=rpalaciosg" title="Documentation">📖</a> <a href="#design-rpalaciosg" title="Design">🎨</a></td>
-    <td align="center"><a href="http://edzzn.com/"><img src="https://avatars3.githubusercontent.com/u/14936466?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Edisson Reinozo</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=edzzn" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/israteneda"><img src="https://avatars2.githubusercontent.com/u/20668624?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Israel Teneda</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=israteneda" title="Code">💻</a> <a href="https://github.com/javascriptecuador/web/commits?author=israteneda" title="Documentation">📖</a> <a href="#design-israteneda" title="Design">🎨</a></td>
-    <td align="center"><a href="https://miguelriosr.com/"><img src="https://avatars3.githubusercontent.com/u/25510181?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Miguel Rios R</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=miguel-rios-r" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/FreddieAbad"><img src="https://avatars0.githubusercontent.com/u/38579765?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Freddy Abad</b></sub></a><br /><a href="#design-FreddieAbad" title="Design">🎨</a></td>
-    <td align="center"><a href="https://github.com/jordanrjcode"><img src="https://avatars2.githubusercontent.com/u/62086742?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jordan Jaramillo</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=jordanrjcode" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/EduardoAyora"><img src="https://avatars1.githubusercontent.com/u/49033198?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eduardo Ayora Ochoa</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=EduardoAyora" title="Code">💻</a></td>
+    <td align="center"><a href="https://richardpalaciosg.dev/"><img src="https://avatars0.githubusercontent.com/u/11642622?v=4" width="100px;" alt=""/><br /><sub><b>Richard Palacios G</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=rpalaciosg" title="Code">💻</a> <a href="https://github.com/javascriptecuador/web/commits?author=rpalaciosg" title="Documentation">📖</a> <a href="#design-rpalaciosg" title="Design">🎨</a></td>
+    <td align="center"><a href="http://edzzn.com/"><img src="https://avatars3.githubusercontent.com/u/14936466?v=4" width="100px;" alt=""/><br /><sub><b>Edisson Reinozo</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=edzzn" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/israteneda"><img src="https://avatars2.githubusercontent.com/u/20668624?v=4" width="100px;" alt=""/><br /><sub><b>Israel Teneda</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=israteneda" title="Code">💻</a> <a href="https://github.com/javascriptecuador/web/commits?author=israteneda" title="Documentation">📖</a> <a href="#design-israteneda" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/jordanrjcode"><img src="https://avatars2.githubusercontent.com/u/62086742?v=4" width="100px;" alt=""/><br /><sub><b>Jordan Jaramillo</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=jordanrjcode" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/EduardoAyora"><img src="https://avatars1.githubusercontent.com/u/49033198?v=4" width="100px;" alt=""/><br /><sub><b>Eduardo Ayora Ochoa</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=EduardoAyora" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.davidpadilla.dev/"><img src="https://avatars3.githubusercontent.com/u/25573926?v=4" width="100px;" alt=""/><br /><sub><b>David Padilla</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=cesardlinx" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/FreddieAbad"><img src="https://avatars0.githubusercontent.com/u/38579765?v=4" width="100px;" alt=""/><br /><sub><b>Freddy Abad</b></sub></a><br /><a href="#design-FreddieAbad" title="Design">🎨</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://www.davidpadilla.dev/"><img src="https://avatars3.githubusercontent.com/u/25573926?v=4?s=100" width="100px;" alt=""/><br /><sub><b>David Padilla</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=cesardlinx" title="Code">💻</a></td>
+    <td align="center"><a href="https://miguelriosr.com/"><img src="https://avatars3.githubusercontent.com/u/25510181?v=4" width="100px;" alt=""/><br /><sub><b>Miguel Rios R</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=miguel-rios-r" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://karlosencalada.dev"><img src="https://avatars2.githubusercontent.com/u/55223838?v=4" width="100px;" alt=""/><br /><sub><b>Carlos G. Encalada B.</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=skcode7" title="Documentation">📖</a></td>
   </tr>
 </table>
 
-<!-- markdownlint-restore -->
+<!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
-
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 Este proyecto sigue la espicificación [all-contributors](https://github.com/all-contributors/all-contributors). Contribuciones de cualquier tipo son bienvenidas!

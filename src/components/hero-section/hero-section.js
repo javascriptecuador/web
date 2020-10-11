@@ -3,6 +3,7 @@ import CommunityDescription from '../community-section/community-description/com
 import PropTypes from 'prop-types'
 import './hero-section.css'
 import SocialNetworks from './social-networks/social-networks';
+import javascriptMapWidget from '../../images/widgets/js-ecuador-map.svg'
 
 const HeroSection = ({ title, subtitle }) => (
   <div className="hero-section ec-container ">
@@ -11,6 +12,7 @@ const HeroSection = ({ title, subtitle }) => (
       <h4 className="hero-subtitle">{subtitle}</h4>
       <CommunityDescription />
       <SocialNetworks />
+      <img className="widget map" src={javascriptMapWidget}  />
     </div>
   </div>
 );

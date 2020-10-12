@@ -47,3 +47,21 @@
     margin-bottom: 1.5em;
     background-color: transparent;
 }
+
+/* Widgets */
+.widget {
+    position: absolute;
+    z-index: 500;
+    display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+    .widget {
+        display: block;
+    }
+}
+  
+.widget.map {
+    top: -85px;
+    right: 3%;
+}

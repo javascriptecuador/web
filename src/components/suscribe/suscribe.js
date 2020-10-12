@@ -4,7 +4,7 @@ const suscribe = () => {
   return (
     <div
       style={{ backgroundColor: "#FFBE00" }}
-      className="flex flex-col lg:flex-row justify-around items-center py-24 my-10"
+      className="flex flex-col lg:flex-row justify-around items-center py-24"
     >
       <p className="text-white text-2xl text-center font-bold">
         Entérate de todos los eventos y <br /> publicaciones

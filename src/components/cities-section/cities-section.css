@@ -1,0 +1,25 @@
+.cities-section {
+    background: #fff;
+    height: 840px;
+    padding-top: 10em;
+    position: relative;
+}
+
+.cities-section .section-title {
+    margin-bottom: 1em;
+}
+
+.bracket {
+    bottom: 38.5em;
+    right: 13em;
+}
+
+.times-yellow {
+    bottom: 25em;
+    left: 22.4em;
+}
+
+.times-purple {
+    bottom: 2em;
+    right: 31em;
+}

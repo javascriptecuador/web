@@ -1,8 +1,8 @@
 import React from 'react';
-import githubSVG from '../../../images/iconos/github.svg';
-import telegramSVG from '../../../images/iconos/telegram.svg';
-import twitterSVG from '../../../images/iconos/twitter.svg';
-import eventbriteSVG from '../../../images/iconos/eventbrite.png';
+import githubSVG from '../../../images/icons/github.svg';
+import telegramSVG from '../../../images/icons/telegram.svg';
+import twitterSVG from '../../../images/icons/twitter.svg';
+import eventbriteSVG from '../../../images/icons/eventbrite.png';
 import './social-networks.css'
 
 const SocialNetworks = () => (

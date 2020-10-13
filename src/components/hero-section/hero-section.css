@@ -36,6 +36,7 @@
     letter-spacing: 1px;
     color: #091133;
     margin-bottom: .6em;
+    font-family: "Roboto", sans-serif;
 }
 
 .hero-subtitle {
@@ -45,6 +46,7 @@
     letter-spacing: 1px;
     color: #4E4E4E;
     margin-bottom: 1.5em;
+    font-family: "Roboto", sans-serif;
     background-color: transparent;
 }
 
@@ -60,7 +62,7 @@
         display: block;
     }
 }
-  
+
 .widget.map {
     top: -85px;
     right: 3%;

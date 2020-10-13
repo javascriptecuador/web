@@ -98,12 +98,14 @@
     font-size: 24px;
     margin-left: 1em;
     padding-right: 1em;
+    font-family: "Roboto", sans-serif;
 }
 
 .heading-item-subtitle {
     font-size: 12px;
     padding-left: 2em;
     margin-left: 1.7em;
+
 }
 
 .heading.title {

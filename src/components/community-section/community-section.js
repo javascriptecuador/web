@@ -48,8 +48,6 @@ const CommunitySection = () => {
             <h4 className="heading subtitle">Javascript del Ecuador</h4>
           </li>
         </ul>
-        {/*
-         */}
         <CommunityDescription />
         <div className="call-to-action">
           <CommunityButton type="secondary">

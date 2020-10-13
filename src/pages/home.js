@@ -1,8 +1,9 @@
-import React from "react";
-import CiudadesSection from "../components/ciudades-section/ciudades-section";
-import CommunitySection from "../components/community-section/community-section";
-import HeroSection from "../components/hero-section/hero-section";
-import Suscribe from "../components/suscribe/suscribe";
+import React from 'react';
+import CitiesSection from '../components/cities-section/cities-section';
+import CommunitySection from '../components/community-section/community-section';
+import HeroSection from '../components/hero-section/hero-section';
+import Subscribe from '../components/suscribe/suscribe'
+
 const Home = () => (
   <div className="home-section-container">
     <HeroSection
@@ -10,8 +11,8 @@ const Home = () => (
       subtitle="Comunidad Javascript del Ecuador"
     />
     <CommunitySection />
-    <CiudadesSection />
-    <Suscribe />
+    <CitiesSection />
+    <Subscribe />
   </div>
 );
 

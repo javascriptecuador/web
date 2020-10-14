@@ -3,7 +3,9 @@
  */
 .hero-section {
     padding-top: 5em;
-    /* padding-bottom: 9em; */
+    position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 
 @media only screen and (min-width: 800px) {
@@ -14,18 +16,28 @@
 
 @media only screen and (min-width: 1190px) {
     .hero-section {
-        padding-bottom: 9em;
+        padding-bottom: 7.5em;
     }
 }
 
 .hero-text {
     width: 100%;
     padding-bottom: 2em;
+    animation: show-up 300ms ease-in-out forwards;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
     .hero-text {
         width: 45%;
+        padding-bottom: 0;
+
+    }
+}
+
+@media (min-width: 1190px) {
+    .hero-text {
+        padding-bottom: 2em;
+
     }
 }
 
@@ -40,7 +52,7 @@
 }
 
 .hero-subtitle {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 20px;
     line-height: 28px;
     letter-spacing: 1px;
@@ -50,20 +62,37 @@
     background-color: transparent;
 }
 
-/* Widgets */
-.widget {
+/* Ecuador Map */
+.map-container {
+    position: relative;
+    display: none;
+    animation: scale-up 600ms ease-in-out forwards;
+}
+
+.ec-map {
+    top: 0px;
+    right: 3%;
     position: absolute;
     z-index: 500;
-    display: none;
+    width: 100%;
 }
 
 @media only screen and (min-width: 1000px) {
-    .widget {
+    .map-container {
+        min-width: 35em;
         display: block;
     }
 }
 
-.widget.map {
-    top: -85px;
-    right: 3%;
+
+@keyframes scale-up {
+    0% {
+        transform: scale(0);
+    }
+    90% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
 }

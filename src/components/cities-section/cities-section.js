@@ -66,7 +66,7 @@ const CitiesSection = () => {
     },
   ];
   return (
-    <div className="cities-section ec-container">
+    <section className="cities-section ec-container">
       <img className="small-widget times-yellow" src={timesYellowWidget} />
       <h2 className="section-title">Ciudades</h2>
       <Carousel>
@@ -82,7 +82,7 @@ const CitiesSection = () => {
       </Carousel>
       <img className="small-widget bracket" src={bracketsWidget} />
       <img className="small-widget times-purple" src={timesPurpleWidget} />
-    </div>
+    </section>
   );
 };
 

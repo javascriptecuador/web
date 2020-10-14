@@ -35,7 +35,7 @@ const CommunitySection = () => {
     },
   ];
   return (
-    <div className="community-section ec-container">
+    <section className="community-section ec-container">
       <div className="section-block slider">
         <PhotoSlider photos={photos} />
       </div>
@@ -59,7 +59,7 @@ const CommunitySection = () => {
       </div>
       <img className="widget circle" src={circleWidget}  />
       <img className="widget square" src={squareWidget}  />
-    </div>
+    </section>
   );
 };
 

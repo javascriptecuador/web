@@ -1,6 +1,6 @@
 import React from "react";
 
-const Suscribe = () => {
+const Subscribe = () => {
   return (
     <div
       style={{ backgroundColor: "#FFBE00" }}
@@ -31,4 +31,4 @@ const Suscribe = () => {
   );
 };
 
-export default Suscribe;
+export default Subscribe;

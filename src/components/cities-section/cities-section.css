@@ -18,6 +18,7 @@
 .times-yellow {
     bottom: 25em;
     left: 22.4em;
+    z-index: 0;
 }
 
 .times-purple {

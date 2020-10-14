@@ -3,7 +3,8 @@ import CommunityDescription from '../community-section/community-description/com
 import PropTypes from 'prop-types'
 import './hero-section.css'
 import SocialNetworks from './social-networks/social-networks';
-import javascriptMapWidget from '../../images/widgets/js-ecuador-map.svg'
+import mapWidget from '../../images/widgets/js-ecuador-map.svg'
+import CityMarkers from './city-markers/city-markers';
 
 const HeroSection = ({ title, subtitle }) => (
   <section className="hero-section ec-container ">
@@ -12,7 +13,10 @@ const HeroSection = ({ title, subtitle }) => (
       <h4 className="hero-subtitle">{subtitle}</h4>
       <CommunityDescription />
       <SocialNetworks />
-      <img className="ec-map" src={javascriptMapWidget}  />
+    </div>
+    <div className="map-container">
+      <img className="ec-map" src={mapWidget}  />
+      <CityMarkers />
     </div>
   </section>
 );

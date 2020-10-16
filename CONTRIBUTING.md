@@ -1,24 +1,33 @@
-## ¿Cómo contribuir?
+# ¿Cómo contribuir?
 
 Hola👋 a todos.   
 Las contribuciones a este repositorio son bienvenidas. Si deseas mejorar esta hoja de referencia o traducirla a otros idiomas, ¡considera abrir un nuevo [issue][1]! y lo trataremos juntos.
 
 Si quieres contribuir debes leer y aceptar nuestro [Código de Conducta][2]
 
-## Guías para colaborar
+# Guías para colaborar
 A continuación se detallan los pasos a seguir para configurar el repositorio y levantar el ambiente de desarrollo.
 
+## Trabajar en un Issue
+>IMPORTANTE: antes de trabajar en un PR, elija un [issue][4] y discuta los cambios previstos con los mantenedores. Pueden proporcionar información invaluable y orientarlo en la dirección correcta para aprovechar al máximo su contribución.
+
+## Ramas 
+`master` es la rama principal sobre la que nos desarrollamos y usaremos para desplegar el sitio. Todas las ramas de `issues` deben estar ramificadas directamente desde la rama `master` es importante [crear una nueva rama](#configuración-local) sobre la que se trabajara antes de empezar a realizar cualquier cambio.
+
+## Workflow
+
 ### :globe_with_meridians: GitHub 
-- Acceder con la cuenta al repositorio *web* y realizar un [fork][3]
+- Si te gusta la comunidad antes nos regalas una ⭐ al repositorio, te lo agradecemos.
+- Accede al repositorio del proyecto **[web][12]** y realiza un [fork][3]
 - Copiar la URL del repositorio copiado (**forked**)
-- Elegir un [issue][4] en el cual trabajar 
+- Elegir un [issue][4] en el cual trabajar. Si nadie esta trabajando en el, comenta que tomas el issue para que te sea asignado.
 
 ### :page_facing_up: Pre-requisitos 
 - Instalar [Node.js][5]
 - Un editor de código [VS Code][6], [Vim][7], [Atom][8]
 
 ### :construction_worker: Configuración local 
-- Abrir una terminal, navegar al directorio en el que se creará el proyecto y clonar el repositorio
+- Abrir una terminal, navegar al directorio en el que se creará el proyecto y clonar el repositorio fork.
     ```
     git clone https://github.com/[usuario-github]/web.git
     ```
@@ -27,7 +36,7 @@ A continuación se detallan los pasos a seguir para configurar el repositorio y 
     git checkout -b tarea-issue-1
     ```
 
-### :hammer: Levantar ambiente de desarrollo 
+#### :hammer: Levantar ambiente de desarrollo 
 - Instalar [**GatsbyJS**][9]
     ```
     npm install -g gatsby-cli
@@ -67,6 +76,8 @@ Para este proyecto usaremos [Commit Lint][10] que usa [Conventional Commits][11]
 - Verificar que la rama base a la izquierda sea `master o main` y la rama a comparar a la derecha sea la creada (`tarea-issue-1` en este ejemplo).
 - Reemplazar el texto del template indicando los cambios realizados y el `issue` que resuelve, en este caso de ejemplo  `close #1`.   
 
+### :muscle: Segundo Pull Request
+> NOTA: Asegúrate de repetir este proceso antes de tomar una nuevo issue.
 ---
 ## Guía Conventional Commits
 

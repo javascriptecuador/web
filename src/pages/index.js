@@ -6,7 +6,7 @@ import CitiesSection from "../components/cities-section/cities-section";
 import SEO from "../components/seo";
 
 const IndexPage = () => (
-  <Layout home={true}>
+  <Layout isHome={true}>
     <SEO
       keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
       title="Home"

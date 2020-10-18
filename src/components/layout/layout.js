@@ -7,11 +7,11 @@ import pathImg from '../../images/background/path.svg';
 import BlogSection from '../blog-section/blog-section';
 import Subscribe from "../subscribe/subscribe";
 
-const Layout = ({ home, children }) => {
+const Layout = ({ isHome, children }) => {
   let background = ''
   let blogSection = null
 
-  if (home) {
+  if (isHome) {
     background = pathImg
     blogSection = <BlogSection />
   }
@@ -29,15 +29,13 @@ const Layout = ({ home, children }) => {
   );
 }
 
-
-
 Layout.propTypes = {
-  home: PropTypes.bool, // Indicates whether it is the homepage or not
+  isHome: PropTypes.bool, // Indicates whether it is the Homepage or not
   children: PropTypes.node.isRequired,
 };
 
-Layout.propTypes = {
-  home: false
+Layout.defaultProps = {
+  isHome: false
 }
 
 export default Layout;

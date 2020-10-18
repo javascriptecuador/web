@@ -1,0 +1,42 @@
+[
+  {
+    "rol": "Co-Organizador",
+    "name": "Richard Palacios G",
+    "photo": "https://avatars0.githubusercontent.com/u/11642622?v=4",
+    "github": "https://richardpalaciosg.dev/",
+    "website": "https://richardpalaciosg.dev/",
+    "email": "https://richardpalaciosg.dev/",
+    "twitter": "https://richardpalaciosg.dev/",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit id tempus cras orci accumsan, commodo semper sagittis consequat turpis hac malesuada felis nisi senectus est. "
+  },
+  {
+    "rol": "Co-Organizador",
+    "name": "Israel Teneda",
+    "photo": "https://avatars2.githubusercontent.com/u/20668624?v=4",
+    "github": "https://github.com/israteneda",
+    "website": "https://github.com/israteneda",
+    "email": "https://github.com/israteneda",
+    "twitter": "https://github.com/israteneda",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit id tempus cras orci accumsan, commodo semper sagittis consequat turpis hac malesuada felis nisi senectus est. "
+  },
+  {
+    "rol": "Co-Organizador",
+    "name": "Edisson Reinozo",
+    "photo": "https://avatars3.githubusercontent.com/u/14936466?v=4",
+    "github": "http://edzzn.com/",
+    "website": "http://edzzn.com/",
+    "email": "http://edzzn.com/",
+    "twitter": "http://edzzn.com/",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit id tempus cras orci accumsan, commodo semper sagittis consequat turpis hac malesuada felis nisi senectus est. "
+  },
+  {
+    "rol": "Co-Organizador",
+    "name": "Jordan Jaramillo",
+    "photo": "https://avatars2.githubusercontent.com/u/62086742?v=4",
+    "github": "https://github.com/jordanrjcode",
+    "website": "https://github.com/jordanrjcode",
+    "email": "https://github.com/jordanrjcode",
+    "twitter": "https://github.com/jordanrjcode",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit id tempus cras orci accumsan, commodo semper sagittis consequat turpis hac malesuada felis nisi senectus est. "
+  }
+]

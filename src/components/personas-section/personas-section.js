@@ -16,22 +16,7 @@ const PersonasSection = ({ title, description, personas }) => (
 PersonasSection.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
-  personas: PropTypes.arrayOf(
-    PropTypes.shape({
-      photo: PropTypes.string.isRequired,
-      name: PropTypes.string.isRequired,
-      rol: PropTypes.string.isRequired,
-      description: PropTypes.string.isRequired,
-      // URL
-      github: PropTypes.string,
-      // URL
-      website: PropTypes.string,
-      // URL
-      email: PropTypes.string,
-      // URL
-      twitter: PropTypes.string,
-    })
-  ),
+  personas: PropTypes.arrayOf(PropTypes.object),
 };
 
 export default PersonasSection;

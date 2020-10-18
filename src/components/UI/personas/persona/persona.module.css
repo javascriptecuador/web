@@ -9,6 +9,7 @@
 .persona__photo {
     width: calc(170px * var(--scale-factor));
     height: calc(170px * var(--scale-factor));
+    background-color: #333333;
     position: absolute;
     top: calc(-120px * var(--scale-factor));
     left: calc(65px * var(--scale-factor));

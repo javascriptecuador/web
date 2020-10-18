@@ -43,6 +43,9 @@ const Carousel = ({ children }) => {
   useEffect(() => {
     setwidth(carouselRef.current.offsetWidth);
     window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
   }, [carouselRef, width, cardWidth]);
 
   const handleResize = () => {

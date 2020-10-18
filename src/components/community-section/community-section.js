@@ -1,5 +1,5 @@
 import React from 'react';
-import CommunityButton from './community-button/community-button';
+import Button from '../UI/button/button'
 import CommunityDescription from './community-description/community-description';
 import PhotoSlider from './photo-slider/photo-slider';
 import circleWidget from '../../images/widgets/circle.svg'
@@ -50,11 +50,11 @@ const CommunitySection = () => {
         </ul>
         <CommunityDescription />
         <div className="call-to-action">
-          <CommunityButton type="secondary">
+          <Button type="secondary">
             Conocer a la Comunidad
-          </CommunityButton>
-          <CommunityButton type="secondary">Cómo ayudar?</CommunityButton>
-          <CommunityButton type="primary">Código de Conducta</CommunityButton>
+          </Button>
+          <Button type="secondary">Cómo ayudar?</Button>
+          <Button type="primary">Código de Conducta</Button>
         </div>
       </div>
       <img className="widget circle" src={circleWidget}  />

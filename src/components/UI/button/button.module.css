@@ -1,7 +1,7 @@
 /**
  * Styles For the Button Component
  */
-.community-button {
+.button {
   display: inline-block;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
@@ -15,26 +15,38 @@
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.community-button.primary {
+.button--primary {
     color: #737373;
     background-color: #f7e018;
     border-color: #f7e018;
 }
 
-.community-button.primary:hover {
+.button--primary:hover {
     color: #f7e018;
     background-color: transparent;
 }
 
-.community-button.secondary {
+.button--secondary {
     color: #f7e018;
     background-color: transparent;
     border-color: #f7e018;
 }
 
-.community-button.secondary:hover {
+.button--secondary:hover {
     color: #737373;
     background-color: #f7e018;
     border-color: #f7e018;
 }
+
+.button--tertiary {
+    color: #fff;
+    background-color: #27ae60;
+    border-radius: 10px;
+}
+
+.button--tertiary:hover {
+    background-color: #2dca6f;
+}
+
+
 

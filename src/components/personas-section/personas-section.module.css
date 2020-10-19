@@ -1,0 +1,17 @@
+.section {
+    width: 100%;
+    padding: 5em 0 0;
+}
+
+.section__title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+
+.section__description {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}

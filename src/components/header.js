@@ -55,8 +55,8 @@ const Header = () => {
               title: `Código de Conducta`,
             },
             {
-              route: `/patrocinadores`,
-              title: `Patrocinadores`,
+              route: `/sponsors`,
+              title: `Sponsors`,
             },
           ].map((link) => (
             <Link

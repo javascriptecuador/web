@@ -1,7 +1,7 @@
 import { graphql, useStaticQuery, Link } from "gatsby";
 import React, { useState } from "react";
 import "./Nav.css";
-import escudo from "../../images/Logo-escudo-ec.svg";
+import escudo from "../../images/logo-escudo-ec.svg";
 import Logo from "./Logo";
 
 const Header = () => {

@@ -40,7 +40,7 @@ Este repositorio es posible gracias a estos excelentes desarrolladores ([emoji k
   <tr>
     <td align="center"><a href="https://miguelriosr.com/"><img src="https://avatars3.githubusercontent.com/u/25510181?v=4" width="100px;" alt=""/><br /><sub><b>Miguel Rios R</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=miguel-rios-r" title="Documentation">📖</a></td>
     <td align="center"><a href="http://karlosencalada.dev"><img src="https://avatars2.githubusercontent.com/u/55223838?v=4" width="100px;" alt=""/><br /><sub><b>Carlos G. Encalada B.</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=skcode7" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/albamaister"><img src="https://avatars0.githubusercontent.com/u/20263594?v=4" width="100px;" alt=""/><br /><sub><b>Andres Alba</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=albamaister" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/albamaister"><img src="https://avatars0.githubusercontent.com/u/20263594?v=4" width="100px;" alt=""/><br /><sub><b>Andres Alba</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=albamaister" title="Documentation">📖</a> <a href="https://github.com/javascriptecuador/web/commits?author=albamaister" title="Code">💻</a></td>
   </tr>
 </table>
 

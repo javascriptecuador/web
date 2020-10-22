@@ -46,6 +46,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
     "@tailwindcss/custom-forms": "0.2.1",
     "all-contributors-cli": "^6.19.0",
     "autoprefixer": "9.8.6",

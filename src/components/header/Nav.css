@@ -16,13 +16,13 @@ header {
   margin-right: auto;
 }
 
-.escudo {
+.logo-image {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
-.titulo {
+.nav__logo-title--sm {
   display: flex;
   align-items: center;
   margin-left: 0.5rem;
@@ -39,11 +39,11 @@ header {
     "Noto Color Emoji";
 }
 
-.logo {
+.nav__logo {
   display: none;
 }
 
-.btn-hambur {
+.nav__btn {
   align-items: center;
   display: block;
   padding-left: 0.5rem;
@@ -60,7 +60,7 @@ header {
   border-radius: 0.25rem;
 }
 
-.btn-hambur svg {
+.nav__btn svg {
   width: 0.75rem;
   height: 0.75rem;
   fill: currentColor;
@@ -77,7 +77,7 @@ header {
     "Noto Color Emoji";
 }
 
-.item {
+.nav__item {
   display: block;
   margin-top: 1rem;
   --text-opacity: 1;
@@ -86,11 +86,11 @@ header {
   text-decoration: none;
 }
 
-.item:hover {
+.nav__item:hover {
   border-bottom: 3px solid #f7e018;
 }
 
-.item a.active {
+.nav__item a.active {
   border-bottom: 3px solid #f7e018;
 }
 
@@ -100,10 +100,10 @@ header {
     justify-content: center;
   }
 
-  .escudo {
+  .nav__logo-image--sm {
     display: none;
   }
-  .logo {
+  .nav__logo {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -111,11 +111,11 @@ header {
     order: 0;
     flex-basis: 100%;
   }
-  .titulo {
+  .nav__logo-title--sm {
     display: none;
   }
 
-  .btn-hambur {
+  .nav__btn {
     display: none;
   }
 
@@ -130,7 +130,7 @@ header {
     justify-content: center;
   }
 
-  .item {
+  .nav__item {
     display: inline-flex;
     margin-top: 0;
     align-items: center;
@@ -148,11 +148,11 @@ header {
   .nav-wrap {
     justify-content: center;
   }
-  .escudo {
+  .logo-image {
     display: none;
   }
 
-  .logo {
+  .nav__logo {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -160,11 +160,11 @@ header {
     order: 1;
     flex-basis: 0;
   }
-  .titulo {
+  .nav__logo-title--sm {
     display: none;
   }
 
-  .btn-hambur {
+  .nav__btn {
     display: none;
   }
 
@@ -178,7 +178,7 @@ header {
     width: auto;
   }
 
-  .item {
+  .nav__item {
     display: inline-flex;
     margin-top: 0;
     align-items: center;
@@ -188,11 +188,11 @@ header {
     align-items: center;
     text-align: center;
   }
-  .item:hover {
+  .nav__item:hover {
     border-bottom: 5px solid #f7e018;
   }
 
-  .item a.active {
+  .nav__item a.active {
     border-bottom: px solid #f7e018;
   }
 }

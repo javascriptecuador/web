@@ -5,9 +5,11 @@ const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
+    title: `JavaScript Ecuador`,
+    description: `Web de la Comunidad JavaScript Ecuador`,
     author: `@taylorbryant`,
+    generator: `Gatsby`,
+    keywords: `html, css, javascript, jamstack`
   },
   plugins: [
     `gatsby-plugin-eslint`,
@@ -24,21 +26,28 @@ module.exports = {
         icon: `src/images/javascriptecuador.png`,
       },
     },
-  {
-    resolve: `gatsby-source-filesystem`,
-    options: {
-      name: `blog-entries`,
-      path: `${__dirname}/src/pages/blog`,
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/data/`,
+      },
     },
-  },
-    // `gatsby-plugin-mdx`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blog-entries`,
+        path: `${__dirname}/src/pages/blog`,
+      },
+    },
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
         extensions: [`.mdx`, `.md`],
         defaultLayouts: {
           // articles: require.resolve('./src/templates/articles-layout.js'),
-          default: require.resolve('./src/templates/blog-entry.js'),
+          default: require.resolve("./src/templates/blog-entry.js"),
         },
       },
     },

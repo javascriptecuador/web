@@ -1,43 +1,41 @@
 import PropTypes from "prop-types";
 import React from "react";
-import './layout.css'
-
+import Footer from "../footer/footer";
 import Header from "../header";
+import styles from "./layout.module.css";
+import pathImg from '../../images/background/path.svg';
+import BlogSection from '../blog-section/blog-section';
+import Subscribe from "../subscribe/subscribe";
 
-function Layout({ children }) {
+const Layout = ({ isHome, children }) => {
+  let background = ''
+  let blogSection = null
+
+  if (isHome) {
+    background = pathImg
+    blogSection = <BlogSection />
+  }
+
   return (
-    <div className="layout flex flex-col min-h-screen font-sans text-gray-900">
+    <div
+      className={styles.layout}
+      style={{ backgroundImage: `url(${background})` }}>
       <Header />
-
-      {/* <main className="flex-1 w-full max-w-4xl px-4 py-8 mx-auto md:px-8 md:py-16"> */}
-      <main className="main-content">
-        {children}
-      </main>
-
-      <footer className="bg-yellow-500">
-        <nav className="flex justify-between max-w-4xl p-4 mx-auto text-sm md:p-8">
-          <p className="text-white font-bold">
-            JavaScript Ecuador
-          </p>
-
-          <p>
-            <a
-              className="font-bold text-white no-underline"
-              href="https://github.com/javascriptecuador/web"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </a>
-          </p>
-        </nav>
-      </footer>
+      <main className={styles.mainContent}>{children}</main>
+      <Subscribe />
+      {blogSection}
+      <Footer />
     </div>
   );
 }
 
 Layout.propTypes = {
+  isHome: PropTypes.bool, // Indicates whether it is the Homepage or not
   children: PropTypes.node.isRequired,
 };
+
+Layout.defaultProps = {
+  isHome: false
+}
 
 export default Layout;

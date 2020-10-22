@@ -12,11 +12,13 @@ No importa el grado de experiencia que tengas o las tecnologías con las que tra
 
 ## ¿Cómo contribuir?
 
-Este es nuestro primer repositorio público al que puedes contribuir, conoce más sobre cómo hacerlo en nuestra [Guía de contribución](https://github.com/javascriptecuador/web/blob/master/CONTRIBUTING.md). En este proyecto se construirá el sitio web oficial de la comunidad, así como el blog en el que muy pronto también podrás hacer tus entradas y en el que informaremos de todo lo que esté pasando alrededor de JavaScript tutoriales, debates, etc. **[Puedes revisar el prototipo del sitio en Figma](https://www.figma.com/file/w2VP8mKwNivTOGqsdvGMVe/Prototipo-Web-Ecuador.js?node-id=0%3A1)**
+Este es nuestro primer repositorio público al que puedes contribuir, conoce más sobre cómo hacerlo en nuestra **[GUÍA DE CONTRIBUCIÓN](https://github.com/javascriptecuador/web/blob/master/CONTRIBUTING.md)**. 
+
+En este proyecto se construye el sitio web oficial de la comunidad, así como el blog en el que muy pronto también podrás hacer tus entradas y en el que informaremos de todo lo que esté pasando alrededor de JavaScript y la comuniad, como tutoriales, debates, etc. **[Puedes revisar el prototipo del sitio en Figma](https://www.figma.com/file/w2VP8mKwNivTOGqsdvGMVe/Prototipo-Web-Ecuador.js?node-id=0%3A1)**
 
 ## Tecnología
 
-El sitio esta desarrollador con el generador de sitios estáticos Gatsby, si has trabajado con React seguro se te hará muy similar trabajar con este framework.
+El sitio esta desarrollado con el generador de sitios estáticos [Gatsby](https://www.gatsbyjs.com/) junto con [Tailwindcss](https://tailwindcss.com/), si has trabajado con React seguro se te hará muy similar hacerlo con este framework, o aqui lo puedes aprender.
 
 ## Contribuidores ✨
 
@@ -38,6 +40,7 @@ Este repositorio es posible gracias a estos excelentes desarrolladores ([emoji k
   <tr>
     <td align="center"><a href="https://miguelriosr.com/"><img src="https://avatars3.githubusercontent.com/u/25510181?v=4" width="100px;" alt=""/><br /><sub><b>Miguel Rios R</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=miguel-rios-r" title="Documentation">📖</a></td>
     <td align="center"><a href="http://karlosencalada.dev"><img src="https://avatars2.githubusercontent.com/u/55223838?v=4" width="100px;" alt=""/><br /><sub><b>Carlos G. Encalada B.</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=skcode7" title="Documentation">📖</a> <a href="https://github.com/javascriptecuador/web/commits?author=skcode7" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/albamaister"><img src="https://avatars0.githubusercontent.com/u/20263594?v=4" width="100px;" alt=""/><br /><sub><b>Andres Alba</b></sub></a><br /><a href="https://github.com/javascriptecuador/web/commits?author=albamaister" title="Documentation">📖</a> <a href="https://github.com/javascriptecuador/web/commits?author=albamaister" title="Code">💻</a></td>
   </tr>
 </table>
 

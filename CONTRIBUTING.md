@@ -1,33 +1,44 @@
-## ¿Cómo contribuir?
+# ¿Cómo contribuir?
 
 Hola👋 a todos.   
 Las contribuciones a este repositorio son bienvenidas. Si deseas mejorar esta hoja de referencia o traducirla a otros idiomas, ¡considera abrir un nuevo [issue][1]! y lo trataremos juntos.
 
 Si quieres contribuir debes leer y aceptar nuestro [Código de Conducta][2]
 
-## Guías para colaborar
+# Guías para colaborar
 A continuación se detallan los pasos a seguir para configurar el repositorio y levantar el ambiente de desarrollo.
 
+## Trabajar en un Issue
+>IMPORTANTE: antes de trabajar en un PR, elija un [issue][4] y discuta los cambios previstos con los mantenedores. Pueden proporcionar información invaluable y orientarlo en la dirección correcta para aprovechar al máximo su contribución.
+
+## Ramas 
+`master` es la rama principal sobre la que nos desarrollamos y usaremos para desplegar el sitio. Todas las ramas de `issues` deben estar ramificadas directamente desde la rama `master` es importante [crear una nueva rama](#configuración-local) sobre la que se trabajara antes de empezar a realizar cualquier cambio.
+
+## Workflow
+
 ### :globe_with_meridians: GitHub 
-- Acceder con la cuenta al repositorio *web* y realizar un [fork][3]
+- Si te gusta la comunidad antes nos regalas una ⭐ al repositorio, te lo agradecemos.
+- Accede al repositorio del proyecto **[web][12]** y realiza un [fork][3]
+> Un Fork es hacer una copia del repositorio y a partir de esta copia hacer cambios. El Fork esta en la parte superior derecha de la pagina.
 - Copiar la URL del repositorio copiado (**forked**)
-- Elegir un [issue][4] en el cual trabajar 
+- Elegir un [issue][4] en el cual trabajar. Si nadie esta trabajando en el, comenta que tomas el issue para que te sea asignado.
 
 ### :page_facing_up: Pre-requisitos 
 - Instalar [Node.js][5]
 - Un editor de código [VS Code][6], [Vim][7], [Atom][8]
 
 ### :construction_worker: Configuración local 
-- Abrir una terminal, navegar al directorio en el que se creará el proyecto y clonar el repositorio
+- Abrir una terminal, navegar al directorio en el que se creará el proyecto y clonar el repositorio fork.
     ```
     git clone https://github.com/[usuario-github]/web.git
     ```
+> Para igualar los cambios del repositorio original [Ver aquí](###-:muscle:-Segundo-Pull-Request)
 - Crea una nueva rama cuyo nombre describa el issue en el que se va a trabajar, por ejemplo `arregla-issue-1`.
     ```
     git checkout -b tarea-issue-1
     ```
 
-### :hammer: Levantar ambiente de desarrollo 
+#### :hammer: Levantar ambiente de desarrollo 
 - Instalar [**GatsbyJS**][9]
     ```
     npm install -g gatsby-cli
@@ -46,7 +57,7 @@ A continuación se detallan los pasos a seguir para configurar el repositorio y 
     git status
     ``` 
 
-### :arrow_up: Enviar cambios (commits) 
+### :arrow_up: Enviar cambios (commits)
 Para este proyecto usaremos [Commit Lint][10] que usa [Conventional Commits][11], esto nos proporcionará un estándar al momento de escribir un commit e identificar el propósito del mismo. 
 
 - Realizar un commit usando las siguientes líneas
@@ -66,6 +77,50 @@ Para este proyecto usaremos [Commit Lint][10] que usa [Conventional Commits][11]
 - Se presenta un mensaje sugiriendo crear un [`pull request`][13]. 
 - Verificar que la rama base a la izquierda sea `master o main` y la rama a comparar a la derecha sea la creada (`tarea-issue-1` en este ejemplo).
 - Reemplazar el texto del template indicando los cambios realizados y el `issue` que resuelve, en este caso de ejemplo  `close #1`.   
+
+### :muscle: Segundo Pull Request
+> NOTA: Asegúrate de repetir este proceso antes de tomar una nuevo issue.
+
+- Antes de tomar un nuevo issue o hacer un Pull Request debe seguir estos pasos para igualar tu Fork con los ultimos cambios del repositorio.
+
+- Debes cambiarte a la rama master
+
+```
+ git checkout master
+```
+- Para comprobar que estas en la rama master ejecutar
+```
+ git branch
+```
+
+> Asegurarse de no tener cambios pendientes, esto lo puedes ver haciendo  `git status`, en caso de tenerlos hacer commit de los cambios [Guia commit](###-:arrow_up:-Enviar-cambios-(commits))
+
+- Debemos conectar el repositorio local con el repositorio remoto principal
+
+```
+    git remote add upstream https://github.com/javascriptecuador/web.git
+```
+- Para comprobar que se conectó al repositorio principal
+
+```
+ git remote -v
+```
+- Traemos los ultimos cambios remotos a nuetro repositorio local
+
+```
+ git pull upstream master
+```
+
+- Subir los cambios al Fork
+
+```
+ git push origin master
+```
+> Recuerda cambiarte a la rama issue que creaste
+```
+ git checkout nombre-branch
+```
+- Ahora puedes seguir los pasos para [enviar tus cambios](###-:arrow_up:-Enviar-cambios-(commits))
 
 ---
 ## Guía Conventional Commits

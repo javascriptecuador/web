@@ -7,6 +7,21 @@
     line-height: 16px;
     text-align: justify;
     margin-top: 3em;
+    margin-bottom: 0;
+}
+
+@media only screen and (min-width: 800px) {
+    .social-networks {
+        margin-top: 0;
+        margin-bottom: 2em;
+    }
+}
+
+@media only screen and (min-width: 1190px) {
+    .social-networks {
+        margin-top: 3em;
+        margin-bottom: 0;
+    }
 }
 
 .social-networks div {

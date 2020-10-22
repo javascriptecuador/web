@@ -1,0 +1,40 @@
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background: transparent;
+}
+
+.carousel button {
+    position: absolute;
+    height: 100%;
+    text-align: center;
+    padding: 0 2em;
+    z-index: 10;
+}
+
+.carousel .left-arrow {
+    top: 0;
+    background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.5));
+}
+
+.carousel .left-arrow:focus {
+    outline: none;
+}
+
+.carousel .right-arrow {
+    top: 0;
+    right: 0;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.5));
+}
+
+.carousel .right-arrow:focus {
+    outline: none;
+}
+
+.carousel-slide {
+    width: 100%;
+    display: flex;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+}

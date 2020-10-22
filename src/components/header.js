@@ -1,7 +1,7 @@
 import { graphql, useStaticQuery, Link } from "gatsby";
 import React, { useState } from "react";
 
-function Header() {
+const Header = () => {
   const [isExpanded, toggleExpansion] = useState(false);
   const { site } = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -17,9 +17,7 @@ function Header() {
     <header className="bg-transparent">
       <div className="flex flex-wrap items-center justify-between max-w-4xl p-4 mx-auto md:p-8">
         <Link to="/">
-          <h4 className="flex items-center text-black no-underline">
-            Inicio
-          </h4>
+          <h4 className="flex items-center text-black no-underline">Inicio</h4>
         </Link>
 
         <button
@@ -51,12 +49,12 @@ function Header() {
               title: `Blog`,
             },
             {
-              route: `/codigo-de-conducta`,
+              route: `/code-of-conduct`,
               title: `Código de Conducta`,
             },
             {
-              route: `/patrocinadores`,
-              title: `Patrocinadores`,
+              route: `/sponsors`,
+              title: `Sponsors`,
             },
           ].map((link) => (
             <Link
@@ -71,6 +69,6 @@ function Header() {
       </div>
     </header>
   );
-}
+};
 
 export default Header;

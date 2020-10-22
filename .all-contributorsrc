@@ -95,6 +95,16 @@
         "doc",
         "code"
       ]
+    },
+    {
+      "login": "albamaister",
+      "name": "Andres Alba",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/20263594?v=4",
+      "profile": "https://github.com/albamaister",
+      "contributions": [
+        "doc",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

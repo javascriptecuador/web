@@ -1,0 +1,60 @@
+.card-section {
+    min-width: 291px;
+    height: 160px;
+    border-radius: 8px;
+    background: #ffffff;
+    overflow: hidden;    
+    user-select: none;
+    margin-top: 20px;
+    padding: 24px 24px 24px 24px;
+}
+
+.description {
+    overflow: hidden;
+    max-height: 140px;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    font-size: 15px;
+}
+
+
+.topic-description {
+    font-weight: bold;
+    margin-bottom: .5em;
+    font-family: "Roboto", sans-serif;
+}
+.topic-example {
+    font-weight: bold;
+    margin-top: .5em;
+    margin-left: .5em;
+    font-family: "Roboto", sans-serif;
+}
+
+.description-example {
+    overflow: hidden;
+    max-height: 140px;
+    margin-top: .5em;
+    margin-left: .5em;
+    margin-bottom: .5em;
+    text-overflow: ellipsis;
+    line-height: 1.0;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+
+.section-example {
+    float: right;
+    width: 25%;
+    height: 110px;
+    background: #c0bfbf;
+    border-radius: 10px;
+}
+
+.section-description {
+    float: left;
+    width: 73%;
+    height: 110px;
+    background:#ffffff;
+    border-radius: 10px;
+}

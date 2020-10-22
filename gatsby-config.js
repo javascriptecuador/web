@@ -26,21 +26,28 @@ module.exports = {
         icon: `src/images/javascriptecuador.png`,
       },
     },
-  {
-    resolve: `gatsby-source-filesystem`,
-    options: {
-      name: `blog-entries`,
-      path: `${__dirname}/src/pages/blog`,
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/data/`,
+      },
     },
-  },
-    // `gatsby-plugin-mdx`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blog-entries`,
+        path: `${__dirname}/src/pages/blog`,
+      },
+    },
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
         extensions: [`.mdx`, `.md`],
         defaultLayouts: {
           // articles: require.resolve('./src/templates/articles-layout.js'),
-          default: require.resolve('./src/templates/blog-entry.js'),
+          default: require.resolve("./src/templates/blog-entry.js"),
         },
       },
     },

@@ -1,21 +1,41 @@
 import PropTypes from "prop-types";
 import React from "react";
-import "./layout.css";
 import Footer from "../footer/footer";
 import Header from "../header";
-import SEO from "../seo";
+import styles from "./layout.module.css";
+import pathImg from '../../images/background/path.svg';
+import BlogSection from '../blog-section/blog-section';
+import Subscribe from "../subscribe/subscribe";
 
+const Layout = ({ isHome, children }) => {
+  let background = ''
+  let blogSection = null
 
-const Layout = ({ children }) => (
-  <div className="layout flex flex-col min-h-screen font-sans text-gray-900">
-    <Header />
-    <main className="main-content">{children}</main>
-    <Footer />
-  </div>
-);
+  if (isHome) {
+    background = pathImg
+    blogSection = <BlogSection />
+  }
+
+  return (
+    <div
+      className={styles.layout}
+      style={{ backgroundImage: `url(${background})` }}>
+      <Header />
+      <main className={styles.mainContent}>{children}</main>
+      <Subscribe />
+      {blogSection}
+      <Footer />
+    </div>
+  );
+}
 
 Layout.propTypes = {
+  isHome: PropTypes.bool, // Indicates whether it is the Homepage or not
   children: PropTypes.node.isRequired,
 };
+
+Layout.defaultProps = {
+  isHome: false
+}
 
 export default Layout;

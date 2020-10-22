@@ -5,9 +5,11 @@ const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
+    title: `JavaScript Ecuador`,
+    description: `Web de la Comunidad JavaScript Ecuador`,
     author: `@taylorbryant`,
+    generator: `Gatsby`,
+    keywords: `html, css, javascript, jamstack`
   },
   plugins: [
     `gatsby-plugin-eslint`,

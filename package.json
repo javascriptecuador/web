@@ -6,13 +6,19 @@
   "dependencies": {
     "@mdx-js/mdx": "^1.6.18",
     "@mdx-js/react": "^1.6.18",
-    "gatsby": "2.24.65",
+    "babel-plugin-styled-components": "^1.11.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-gatsby": "^0.5.14",
+    "gatsby": "^2.24.85",
+    "gatsby-legacy-polyfills": "0.0.5",
     "gatsby-plugin-manifest": "2.4.31",
     "gatsby-plugin-mdx": "^1.2.42",
     "gatsby-plugin-offline": "3.2.27",
     "gatsby-plugin-postcss": "2.3.11",
     "gatsby-plugin-react-helmet": "3.3.11",
     "gatsby-plugin-sharp": "2.6.36",
+    "gatsby-plugin-styled-components": "^3.3.14",
     "gatsby-source-filesystem": "^2.3.31",
     "gatsby-transformer-json": "^2.4.14",
     "prop-types": "15.7.2",
@@ -20,6 +26,7 @@
     "react-dom": "16.13.1",
     "react-helmet": "6.1.0",
     "react-slick": "^0.27.11",
+    "styled-components": "^5.2.0",
     "typeface-rubik": "^1.1.13"
   },
   "keywords": [

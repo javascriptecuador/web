@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap");
+
+header {
+  background-color: transparent;
+}
+
+.nav-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 76rem;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav__logo-image--sm {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav__logo-title--sm {
+  display: flex;
+  align-items: center;
+  margin-left: 0.5rem;
+  --text-opacity: 1;
+  color: #000;
+  color: rgba(0, 0, 0, var(--text-opacity));
+  text-decoration: none;
+
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+.nav__logo {
+  display: none;
+}
+
+.nav__btn {
+  align-items: center;
+  display: block;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  --text-opacity: 1;
+  color: #000;
+  color: rgba(0, 0, 0, var(--text-opacity));
+  border-width: 1px;
+  --border-opacity: 1;
+  border-color: #000;
+  border-color: rgba(0, 0, 0, var(--border-opacity));
+  border-radius: 0.25rem;
+}
+
+.nav__btn svg {
+  width: 0.75rem;
+  height: 0.75rem;
+  fill: currentColor;
+}
+
+.navbar {
+  justify-content: center;
+  width: 100%;
+  font-size: 0.75rem;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+.nav__item {
+  display: block;
+  margin-top: 1rem;
+  --text-opacity: 1;
+  color: #000;
+  color: rgba(0, 0, 0, var(--text-opacity));
+  text-decoration: none;
+}
+
+.nav__item:hover {
+  border-bottom: 3px solid #f7e018;
+}
+
+.nav__item a.active {
+  border-bottom: 3px solid #f7e018;
+}
+
+/*MD*/
+@media (min-width: 768px) {
+  .nav-wrap {
+    justify-content: center;
+  }
+
+  .nav__logo-image--sm {
+    display: none;
+  }
+  .nav__logo {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 0.8rem 0 0.8rem;
+    flex-basis: 100%;
+    order: 0;
+  }
+  .nav__logo-title--sm {
+    display: none;
+  }
+
+  .nav__btn {
+    display: none;
+  }
+
+  .navbar {
+    display: inline-flex;
+    flex-wrap: wrap;
+    min-height: 100px;
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    width: auto;
+    justify-content: center;
+  }
+
+  .nav__item {
+    display: inline-flex;
+    margin-top: 0;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 120px;
+    align-items: center;
+    text-align: center;
+    order: 1;
+  }
+  .nav__item:hover {
+    border-bottom: 5px solid #f7e018;
+  }
+
+  .nav__item a.active {
+    border-bottom: px solid #f7e018;
+  }
+}
+
+/* LG  */
+@media (min-width: 1100px) {
+  .nav-wrap {
+    justify-content: center;
+  }
+  .nav__logo-image--sm {
+    display: none;
+  }
+
+  .nav__logo {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.8rem 0 0.8rem;
+    order: 1;
+    flex-basis: 0;
+  }
+  .nav__logo-title--sm {
+    display: none;
+  }
+
+  .nav__btn {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    width: auto;
+  }
+
+  .nav__item {
+    display: inline-flex;
+    margin-top: 0;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 120px;
+    align-items: center;
+    text-align: center;
+  }
+  .nav__item:hover {
+    border-bottom: 5px solid #f7e018;
+  }
+
+  .nav__item a.active {
+    border-bottom: px solid #f7e018;
+  }
+}

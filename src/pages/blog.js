@@ -10,7 +10,7 @@ function BlogPage(articulos) {
   return (
     <Layout>
       <SEO title="Blog de Javascript Ecuador" />
-      <div>
+      <div className="mx-auto md:w-1/2 mb-8">
         <h2>Lista de blogs:</h2>
 
         <ul>

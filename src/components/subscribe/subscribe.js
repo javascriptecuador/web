@@ -12,18 +12,9 @@ const Subscribe = () => {
         onSubmit={(e) => {
           e.preventDefault();
         }}
-        className="flex flex-col"
       >
-        <input
-          placeholder="Ingresa tu email aquí"
-          className="my-5 p-2 text-black text-center placeholder-black rounded"
-        />
-        <button
-          type="submit"
-          className="bg-transparent text-white border-2 border-white p-2 rounded focus:outline-none hover:bg-white hover:text-black "
-        >
-          Suscribirme
-        </button>
+        <input placeholder="Ingresa tu email aquí" />
+        <button type="submit">Suscribirme</button>
       </form>
     </div>
   );

@@ -19,6 +19,59 @@
   font-weight: 700;
 }
 
+.subscribe form {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscribe input {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  padding: 0.5rem;
+
+  --text-opacity: 1;
+  color: #000;
+  color: rgba(0, 0, 0, var(--text-opacity));
+  text-align: center;
+
+  --placeholder-opacity: 1;
+  color: #4a5568;
+  color: rgba(74, 85, 104, var(--placeholder-opacity));
+  border-radius: 0.25rem;
+}
+
+.subscribe button {
+  background-color: transparent;
+
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+
+  border-width: 2px;
+  --border-opacity: 1;
+  border-color: #fff;
+  border-color: rgba(255, 255, 255, var(--border-opacity));
+
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.subscribe button:focus {
+  outline: 0;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.subscribe button:hover {
+  --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+
+  --text-opacity: 1;
+  color: #000;
+  color: rgba(0, 0, 0, var(--text-opacity));
+}
+
 @media (min-width: 1024px) {
   .subscribe {
     flex-direction: row;

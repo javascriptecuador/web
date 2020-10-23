@@ -25,8 +25,8 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/javascriptecuador.png`,
       },
-      plugins: [`gatsby-plugin-styled-components`],
     },
+    `gatsby-plugin-styled-components`,
     `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,

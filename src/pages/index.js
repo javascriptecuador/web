@@ -3,7 +3,7 @@ import Layout from "../components/layout/layout";
 import HeroSection from "../components/hero-section/hero-section";
 import CommunitySection from "../components/community-section/community-section";
 import CitiesSection from "../components/cities-section/cities-section";
-import EventsSection from "../components/events-section/Events"
+import EventsSection from "../components/events-section/Events";
 import Subscribe from "../components/subscribe/subscribe";
 import SEO from "../components/seo";
 
@@ -20,7 +20,6 @@ const IndexPage = () => (
     <CommunitySection />
     <CitiesSection />
     <EventsSection />
-    <Subscribe />
   </Layout>
 );
 

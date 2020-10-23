@@ -9,7 +9,7 @@ module.exports = {
     description: `Web de la Comunidad JavaScript Ecuador`,
     author: `@taylorbryant`,
     generator: `Gatsby`,
-    keywords: `html, css, javascript, jamstack`
+    keywords: `html, css, javascript, jamstack`,
   },
   plugins: [
     `gatsby-plugin-eslint`,
@@ -25,6 +25,7 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/javascriptecuador.png`,
       },
+      plugins: [`gatsby-plugin-styled-components`],
     },
     `gatsby-transformer-json`,
     {

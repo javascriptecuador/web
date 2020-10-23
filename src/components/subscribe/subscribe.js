@@ -1,12 +1,10 @@
 import React from "react";
+import styles from "./subscribe.css";
 
 const Subscribe = () => {
   return (
-    <div
-      style={{ backgroundColor: "#FFBE00" }}
-      className="flex flex-col lg:flex-row justify-around items-center py-24"
-    >
-      <p className="text-white text-2xl text-center font-bold">
+    <div className="subscribe">
+      <p>
         Entérate de todos los eventos y <br /> publicaciones
       </p>
 

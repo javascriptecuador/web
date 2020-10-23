@@ -1,0 +1,26 @@
+.subscribe {
+  background: #ffbe00 url(../../images/js-ec-pattern.svg);
+  background-size: 150em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.subscribe p {
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+@media (min-width: 1024px) {
+  .subscribe {
+    flex-direction: row;
+  }
+}

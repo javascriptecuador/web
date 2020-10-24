@@ -88,5 +88,15 @@
     "email": "http://karlosencalada.dev",
     "twitter": "http://karlosencalada.dev",
     "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit id tempus cras orci accumsan, commodo semper sagittis consequat turpis hac malesuada felis nisi senectus est. "
+  },
+  {
+    "rol": "Co-Organizador",
+    "name": "Bryan Alba",
+    "photo": "https://avatars0.githubusercontent.com/u/20263594?v=4",
+    "github": "https://github.com/albamaister",
+    "website": "https://albamaister.github.io/curriculum/",
+    "email": "bryanalba92@gmail.com",
+    "twitter": "https://twitter.com/albamaister",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit id tempus cras orci accumsan, commodo semper sagittis consequat turpis hac malesuada felis nisi senectus est. "
   }
 ]

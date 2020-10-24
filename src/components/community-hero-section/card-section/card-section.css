@@ -1,60 +1,96 @@
 .card-section {
-    min-width: 291px;
-    height: 160px;
-    border-radius: 8px;
+    width: 100%;
+    height: 15vw;
+    border-radius: 1vw;
     background: #ffffff;
     overflow: hidden;    
     user-select: none;
-    margin-top: 20px;
-    padding: 24px 24px 24px 24px;
+    margin-top: 1vw;
+    padding: 1.7vw 1.7vw 1.7vw 1.7vw;
 }
 
-.description {
-    overflow: hidden;
-    max-height: 140px;
-    margin-top: .5em;
-    margin-bottom: .5em;
-    font-size: 15px;
+.section-evento {
+    float: left;
+    width: 68%;
+    height: 13vw;
+    background:#ffffff;
+    border-radius: 1vw;
 }
-
 
 .topic-description {
     font-weight: bold;
     margin-bottom: .5em;
     font-family: "Roboto", sans-serif;
+    font-size: 1.5vw;
 }
+
+.description-section {
+    overflow: hidden;
+    height: 5.5vw;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    font-size: 1vw;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
 .topic-example {
     font-weight: bold;
     margin-top: .5em;
     margin-left: .5em;
     font-family: "Roboto", sans-serif;
+    font-size: 1.5vw;
 }
 
 .description-example {
     overflow: hidden;
-    max-height: 140px;
+    height: 8vw;
     margin-top: .5em;
+    margin-right: .5em;
     margin-left: .5em;
     margin-bottom: .5em;
     text-overflow: ellipsis;
     line-height: 1.0;
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
+    font-family:  sans-serif;
+    font-size: 1vw;
+    text-align: justify;
 }
 
 
 .section-example {
     float: right;
-    width: 25%;
-    height: 110px;
+    width: 30%;
+    height: 12vw;
     background: #c0bfbf;
-    border-radius: 10px;
+    border-radius: 1vw;
 }
 
-.section-description {
-    float: left;
-    width: 73%;
-    height: 110px;
-    background:#ffffff;
-    border-radius: 10px;
-}
+ @media all and (max-width: 60em){
+    .card-section  {
+        height: 70vw;
+    }
+    .section-evento {
+        height: 67vw;
+        padding: .5vw .5vw .5vw .5vw ;
+    }
+    .topic-description {
+        font-size: 4.5vw;
+        height: 7vw;
+        margin-bottom: 0em;
+    } 
+    .description-section {
+        font-size: 3vw;
+        height: 45vw;
+        margin-top: .0em;
+    } 
+    .section-example {
+        height: 67vw;
+    }
+    .topic-example {
+        font-size: 4vw;
+    }         
+    .description-example {
+        height: 55vw;
+        font-size: 3vw;
+    }    
+} 

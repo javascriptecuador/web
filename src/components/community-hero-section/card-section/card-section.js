@@ -6,9 +6,9 @@ import PropTypes from 'prop-types'
 const HeroSection = ({title, description, txtButton, descriptionExample}) => {
     return (
         <div className='card-section'>
-            <div className='section-description'>
+            <div className='section-evento'>
                 <h5 className="topic-description">{title}</h5> 
-                <div className="description">{description}</div>
+                <div className="description-section">{description}</div>
                 <Button type="primary">{txtButton}</Button>
             </div> 
             <div className='section-example'>

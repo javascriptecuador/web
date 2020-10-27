@@ -7,9 +7,9 @@ module.exports = {
   siteMetadata: {
     title: `JavaScript Ecuador`,
     description: `Web de la Comunidad JavaScript Ecuador`,
-    author: `@taylorbryant`,
+    author: ``,
     generator: `Gatsby`,
-    keywords: `html, css, javascript, jamstack`,
+    keywords: `gatsby, react, graphql, javascript, ecuador`,
   },
   plugins: [
     `gatsby-plugin-eslint`,
@@ -47,7 +47,6 @@ module.exports = {
       options: {
         extensions: [`.mdx`, `.md`],
         defaultLayouts: {
-          // articles: require.resolve('./src/templates/articles-layout.js'),
           default: require.resolve("./src/templates/blog-entry.js"),
         },
       },

@@ -1,0 +1,41 @@
+.author {
+  display: flex;
+  margin: 3em 0;
+}
+
+.author__image {
+  width: 4.5em;
+  height: 4.5em;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 1em;
+}
+
+.author__image img {
+  display: block;
+  width: 100%;
+}
+
+.author__info {
+  width: 50%;
+}
+
+.author__name {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.author__date {
+  font-size: .8rem;
+  color: #737373;
+}
+
+.author__icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+.author__icon:first-child {
+  margin-right: 5px;
+}

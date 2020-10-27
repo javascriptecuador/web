@@ -27,7 +27,8 @@
     "react-helmet": "6.1.0",
     "react-slick": "^0.27.11",
     "styled-components": "^5.2.0",
-    "typeface-rubik": "^1.1.13"
+    "typeface-open-sans": "^1.1.13",
+    "typeface-roboto": "^1.1.13"
   },
   "keywords": [
     "ecuador",

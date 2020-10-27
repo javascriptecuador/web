@@ -7,9 +7,9 @@ module.exports = {
   siteMetadata: {
     title: `JavaScript Ecuador`,
     description: `Web de la Comunidad JavaScript Ecuador`,
-    author: `@taylorbryant`,
+    author: ``,
     generator: `Gatsby`,
-    keywords: `html, css, javascript, jamstack`,
+    keywords: `gatsby, react, graphql, javascript, ecuador`,
   },
   plugins: [
     `gatsby-plugin-eslint`,

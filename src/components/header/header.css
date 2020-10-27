@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap");
-
 header {
   background-color: transparent;
 }
@@ -9,7 +7,7 @@ header {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-
+  overflow: hidden;
   max-width: 76rem;
   padding: 1rem;
   margin-left: auto;
@@ -69,35 +67,55 @@ header {
 .navbar {
   justify-content: center;
   width: 100%;
+  height: 0;
   font-size: 0.75rem;
   font-weight: 700;
   font-family: "Open Sans", sans-serif, system-ui, -apple-system,
     BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
     "Noto Color Emoji";
+  transition: height 300ms ease-in-out;
+}
+
+.navbar.expanded {
+  height: 275px;
 }
 
 .nav__item {
   display: block;
-  margin-top: 1rem;
+  padding-top: 1rem;
   --text-opacity: 1;
   color: #000;
   color: rgba(0, 0, 0, var(--text-opacity));
   text-decoration: none;
+  position: relative;
+  box-sizing: border-box;
 }
 
-.nav__item:hover {
-  border-bottom: 3px solid #f7e018;
+.nav__item::after {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 5px;
+  background-color: #f7e018;
+  width: 0;
+  bottom: -5px;
+  transition: all 250ms ease-in-out;
 }
 
-.nav__item a.active {
-  border-bottom: 3px solid #f7e018;
+.nav__item:hover::after {
+  width: 100%;
+}
+
+.nav__item.active::after {
+  width: 100%;
 }
 
 /*MD*/
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .nav-wrap {
     justify-content: center;
+    overflow: visible;
   }
 
   .nav__logo-image--sm {
@@ -124,6 +142,7 @@ header {
     display: inline-flex;
     flex-wrap: wrap;
     min-height: 100px;
+    height: 180px;
     width: 100vh;
     display: flex;
     align-items: center;
@@ -131,9 +150,14 @@ header {
     justify-content: center;
   }
 
+  .navbar.expanded {
+    height: 180px;
+  }
+
   .nav__item {
     display: inline-flex;
     margin-top: 0;
+    padding-top: 0;
     align-items: center;
     justify-content: center;
     height: 80px;
@@ -142,12 +166,19 @@ header {
     text-align: center;
     order: 1;
   }
-  .nav__item:hover {
-    border-bottom: 5px solid #f7e018;
+
+  .nav__item::after {
+    bottom: 0;
+    width: 100%;
+    transform: scaleX(0);
   }
 
-  .nav__item a.active {
-    border-bottom: px solid #f7e018;
+  .nav__item:hover::after{
+    transform: scaleX(1);
+  }
+
+  .nav__item.active::after {
+    transform: scale(1);
   }
 }
 
@@ -186,6 +217,10 @@ header {
     width: auto;
   }
 
+  .navbar.expanded {
+    height: 100px;
+  }
+
   .nav__item {
     display: inline-flex;
     margin-top: 0;
@@ -195,12 +230,5 @@ header {
     width: 120px;
     align-items: center;
     text-align: center;
-  }
-  .nav__item:hover {
-    border-bottom: 5px solid #f7e018;
-  }
-
-  .nav__item a.active {
-    border-bottom: px solid #f7e018;
   }
 }

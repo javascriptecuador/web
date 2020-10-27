@@ -4,7 +4,6 @@ import Layout from "../components/layout/layout";
 import SEO from "../components/seo";
 
 import { StaticQuery, graphql, Link } from "gatsby";
-import { render } from "react-dom";
 
 function BlogPage(articulos) {
   return (
@@ -15,7 +14,7 @@ function BlogPage(articulos) {
 
         <ul>
           {articulos.map((articulo) => (
-            <li>
+            <li key={articulo.id}>
               <Link to={`/blog/${articulo.slug}`}>{articulo.title}</Link>
             </li>
           ))}
@@ -33,6 +32,7 @@ function renderBlogPage() {
           articulos: allMdx {
             edges {
               node {
+                id
                 slug
                 frontmatter {
                   title
@@ -48,6 +48,7 @@ function renderBlogPage() {
           return {
             ...articulo.node.frontmatter,
             slug: articulo.node.slug,
+            id: articulo.node.id,
           };
         });
         return BlogPage(articulosFormateados);

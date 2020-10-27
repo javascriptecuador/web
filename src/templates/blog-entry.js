@@ -1,35 +1,45 @@
 import React from "react";
 import Layout from "../components/layout/layout";
 import SEO from "../components/seo";
+import { useStaticQuery, graphql } from "gatsby";
+import styles from "./blog-entry.module.css";
+import Author from "../components/author/author";
 
-// import PropTypes from 'prop-types';
-
-export default function BlogEntry({ pageContext, children }) {
+const BlogEntry = ({ children }) => {
+  const data = useStaticQuery(graphql`
+    query BlogEntry {
+      mdx {
+        frontmatter {
+          title
+          date(formatString: "MMMM DD, YYYY")
+          author {
+            photo
+            name
+            github
+            email
+          }
+        }
+      }
+    }
+  `);
+  const { title, date } = data.mdx.frontmatter;
+  const { name, photo, github, email } = data.mdx.frontmatter.author;
   return (
     <Layout>
-      <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-        title="About"
-      />
-
-      <section className="flex-1 w-full max-w-4xl px-4 py-8 mx-auto md:px-8 md:py-16">
-        <h1>{pageContext.frontmatter.title}</h1>
-        <br/>
-        <h4>{pageContext.frontmatter.description}</h4>
-        <br/>
+      <SEO keywords={[`gatsby`, `react`]} title={title} />
+      <section className={styles.blog}>
+       <h1 className={styles.blog__title}>{title}</h1>
+        <Author
+          name={name}
+          photo={photo}
+          date={date}
+          github={github}
+          email={email}
+        />
         <section>{children}</section>
-        {/* <div className="md:w-2/3 md:mr-8"></div> */}
       </section>
     </Layout>
   );
-}
+};
 
-// BlogEntry.prototype = {
-//     children: PropTypes.object,
-//     // pageContext: PropTypes.shape({
-//     //     title: PropTypes.string.isRequired,
-//     //     date: PropTypes.string.isRequired,
-//     //     description: PropTypes.string,
-//     // })
-//     pageContext: PropTypes.any
-// }
+export default BlogEntry;

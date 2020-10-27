@@ -47,7 +47,6 @@ module.exports = {
       options: {
         extensions: [`.mdx`, `.md`],
         defaultLayouts: {
-          // articles: require.resolve('./src/templates/articles-layout.js'),
           default: require.resolve("./src/templates/blog-entry.js"),
         },
       },

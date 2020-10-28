@@ -1,3 +1,19 @@
+# Tabla de contenido
+## [1. ¿Cómo contribuir?](#¿Cómo-contribuir?)
+## [2. Guías para colaborar](#Guías-para-colaborar)
+  * [Trabajar en un Issue](#Trabajar-en-un-Issue)
+  * [Ramas](#Ramas)
+  * [Workflow](#Workflow)
+    * [GitHub](#-:globe_with_meridians:-GitHub)
+    * [Pre-requisitos](#-:page_facing_up:-Pre-requisitos)
+    * [Configuración local](#-:construction_worker:-Configuración-local)
+        * [Levantar ambiente de desarrollo](#-:hammer:-Levantar-ambiente-de-desarrollo)
+    * [Enviar cambios (commits)](#-:arrow_up:-Enviar-cambios-(commits))
+    * [Pull Request](#-:rocket:-Pull-Request)
+    * [Segundo Pull Request](#-:muscle:-Segundo-Pull-Request)
+  * [Guía Conventional Commits](#-Guía-Conventional-Commits)
+    * [Explicación de los campos ](#-Explicación-de-los-campos)
+
 # ¿Cómo contribuir?
 
 Hola👋 a todos.   

@@ -8,55 +8,57 @@
     user-select: none;
 }
 
-.card-header {
+.card__header {
     width: 100%;
     padding: 24px 24px 15px;
 }
 
-.card .img-viewport {
+.card__img--viewport {
     width: 100%;
     height: 136.13px;
     overflow: hidden;
     border-radius: 15px;
 }
 
-.card img {
+.card__img {
     width: 100%;
     display: block;
 }
 
-.card-body {
+.card__body {
     padding: 0 24px 24px 24px;
 }
 
-.card-body .topic {
+.card__topic {
     font-weight: bold;
-    margin-bottom: .5em;
     font-family: "Roboto", sans-serif;
 }
 
-.card-body .date {
+.card__date {
     color: #666363;
+    font-weight: bold;
 }
 
-.description-title {
+.card__description--title {
     margin-right: .5em;
 }
 
-.description {
+.card__description {
     overflow: hidden;
     max-height: 140px;
-    margin-top: .5em;
 }
 
-.description-text {
+.card__description--text {
     overflow: hidden;
     text-overflow: ellipsis;
     line-height: 1.1;
     font-family: "Roboto", sans-serif;
 }
 
-.read-more {
-    font-weight: bold;
+.card__readmore {
     margin-left: .3em;
+}
+
+.card__description--text a {
+    font-weight: bold;
 }

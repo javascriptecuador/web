@@ -1,25 +1,20 @@
-import { graphql, useStaticQuery, Link } from "gatsby";
+import { Link } from "gatsby";
 import React, { useState } from "react";
-import "./Nav.css";
+import "./header.css";
 import escudo from "../../images/logo-escudo-ec.svg";
-import Logo from "./Logo";
+import Logo from "./Logo/logo";
 
 const Header = () => {
   const [isExpanded, toggleExpansion] = useState(false);
-  const { site } = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `);
+  let expanededClass = ''
+  if (isExpanded) {
+    expanededClass = 'expanded'
+  }
 
   return (
     <header>
       <div className="nav-wrap">
-        <Link to="/" className="nav__logo-image--sm">
+        <Link to="/" className="nav__logo-image--sm" activeClassName="active">
           <img className="nav__logo-image--sm" src={escudo} alt="Logo" />
           <h4 className="nav__logo-title--sm">Ecuador.js</h4>
         </Link>
@@ -37,36 +32,37 @@ const Header = () => {
           </svg>
         </button>
 
-        <nav className={`${isExpanded ? `block` : `hidden`} navbar `}>
-          <Link className="nav__item" to="/" key="HOME">
+        <nav className={`navbar ${expanededClass}`}>
+          <Link className="nav__item" to="/" key="HOME" activeClassName="active">
             HOME
           </Link>
-          <Link className="nav__item" to="/eventos" key="EVENTOS">
+          <Link className="nav__item" to="/eventos" key="EVENTOS" activeClassName="active" partiallyActive={true}>
             EVENTOS
           </Link>
-          <Link className="nav__item" to="/comunidad" key="COMUNIDAD">
+          <Link className="nav__item" to="/comunidad" key="COMUNIDAD" activeClassName="active" partiallyActive={true}>
             COMUNIDAD
           </Link>
-          <Link className="nav__item" to="/ciudades" key="CIUDADES">
+          <Link className="nav__item" to="/ciudades" key="CIUDADES" activeClassName="active" partiallyActive={true}>
             CIUDADES
           </Link>
-          <Link to="/" className="nav__logo">
+          <Link to="/" className="nav__logo" activeClassName="active">
             <Logo />
           </Link>
-          <Link className="nav__item" to="/blog" key="BLOG">
+          <Link className="nav__item" to="/blog" key="BLOG" activeClassName="active" partiallyActive={true}>
             BLOG
           </Link>
           <Link
             className="nav__item"
             to="/code-of-conduct"
             key="CÓDIGO DE CONDUCTA"
+            activeClassName="active"
           >
             CÓDIGO DE CONDUCTA
           </Link>
-          <Link className="nav__item" to="/sponsors" key="SPONSORS">
+          <Link className="nav__item" to="/sponsors" key="SPONSORS" activeClassName="active" partiallyActive={true}>
             SPONSORS
           </Link>
-          <Link className="nav__item" to="/cuentas" key="CUENTAS">
+          <Link className="nav__item" to="/cuentas" key="CUENTAS" activeClassName="active" partiallyActive={true}>
             CUENTAS
           </Link>
         </nav>

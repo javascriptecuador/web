@@ -1,27 +1,29 @@
-.cities-section {
+.cities {
     background: #fff;
     height: 840px;
     padding-top: 10em;
     position: relative;
 }
 
-.cities-section .section-title {
+.cities__title {
     margin-bottom: 1em;
 }
 
+
 /* Widgets */
-.bracket {
+
+.widget__bracket {
     bottom: 38.5em;
     right: 13em;
 }
 
-.times-yellow {
+.widget__times--yellow {
     bottom: 25em;
     left: 22.4em;
     z-index: 0;
 }
 
-.times-purple {
+.widget__times--purple {
     bottom: 2em;
     right: 31em;
 }

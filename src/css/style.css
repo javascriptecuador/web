@@ -45,8 +45,15 @@ body {
 }
 
 .small-widget {
+    display: none;
     position: absolute;
     z-index: 500;
+}
+
+@media only screen and (min-width: 560px) {
+    .small-widget {
+        display: block;
+    }
 }
 
 @keyframes show-up {

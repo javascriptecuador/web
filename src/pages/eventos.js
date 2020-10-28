@@ -1,11 +1,8 @@
 import React from "react";
-import Contributors from "../components/contributors/contributors";
 import Layout from "../components/layout/layout";
-import Maintainers from "../components/maintainers/maintainers";
-import CommunityHeroSection from "../components/community-hero-section/community-hero-section";
 import SEO from "../components/seo";
 
-const ComunidadPage = () => (
+const Eventos = () => (
   <Layout>
     <SEO
       keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
@@ -15,4 +12,4 @@ const ComunidadPage = () => (
   </Layout>
 );
 
-export default ComunidadPage;
+export default Eventos ;

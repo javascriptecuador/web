@@ -1,0 +1,41 @@
+.events {
+  background: #F2F2F2;
+  height: 840px;
+  padding-top: 10em;
+  position: relative;
+}
+
+.events__title{
+  margin-bottom: 1em;
+  padding-right: 1em;
+  text-align: right;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Widgets */
+
+.events__triangle {
+  top: 2em;
+  left: 12em;
+  display: none;
+}
+
+@media only screen and (min-width: 567px) {
+  .events__triangle {
+    display: block;
+  }
+}
+
+.events__bracket {
+    bottom: -.6em;
+    right: 15em;
+    display: none;
+}
+
+@media only screen and (min-width: 567px) {
+  .events__bracket {
+    display: block;
+  }
+}

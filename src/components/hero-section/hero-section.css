@@ -14,9 +14,15 @@
     }
 }
 
-@media only screen and (min-width: 1190px) {
+@media only screen and (min-width: 1059px) {
     .hero-section {
-        padding-bottom: 7.5em;
+        padding-bottom: 1em;
+    }
+}
+
+@media only screen and (min-width: 1296px) {
+    .hero-section {
+        padding-bottom: 7em;
     }
 }
 
@@ -26,7 +32,7 @@
     animation: show-up 300ms ease-in-out forwards;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1059px) {
     .hero-text {
         width: 45%;
         padding-bottom: 0;
@@ -77,7 +83,7 @@
     width: 100%;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1059px) {
     .map-container {
         min-width: 35em;
         display: block;

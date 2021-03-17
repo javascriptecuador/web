@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./personas-section.module.css";
-import PropTypes from 'prop-types'
-import Personas from '../UI/personas/personas'
+import PropTypes from "prop-types";
+import Personas from "../UI/personas/personas";
 
 const PersonasSection = ({ title, description, personas }) => (
   <div className={styles.section}>

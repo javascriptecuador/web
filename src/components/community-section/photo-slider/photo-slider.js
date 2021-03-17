@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Slider from 'react-slick';
-import './photo-slider.css';
+import React from "react";
+import PropTypes from "prop-types";
+import Slider from "react-slick";
+import "./photo-slider.css";
 
 const PhotoSlider = ({ photos }) => {
   const settings = {
@@ -15,7 +15,7 @@ const PhotoSlider = ({ photos }) => {
     customPaging: () => <button></button>,
   };
   return (
-    <div className='photo-slider'>
+    <div className="photo-slider">
       <Slider {...settings}>
         {photos.map((photo, idx) => (
           <img src={photo.photoURL} alt={photo.name} key={idx} />

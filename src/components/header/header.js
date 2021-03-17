@@ -6,9 +6,9 @@ import Logo from "./Logo/logo";
 
 const Header = () => {
   const [isExpanded, toggleExpansion] = useState(false);
-  let expanededClass = ''
+  let expanededClass = "";
   if (isExpanded) {
-    expanededClass = 'expanded'
+    expanededClass = "expanded";
   }
 
   return (
@@ -33,22 +33,51 @@ const Header = () => {
         </button>
 
         <nav className={`navbar ${expanededClass}`}>
-          <Link className="nav__item" to="/" key="HOME" activeClassName="active">
+          <Link
+            className="nav__item"
+            to="/"
+            key="HOME"
+            activeClassName="active"
+          >
             HOME
           </Link>
-          <Link className="nav__item" to="/eventos" key="EVENTOS" activeClassName="active" partiallyActive={true}>
+          <Link
+            className="nav__item"
+            to="/eventos"
+            key="EVENTOS"
+            activeClassName="active"
+            partiallyActive={true}
+          >
             EVENTOS
           </Link>
-          <Link className="nav__item" to="/comunidad" key="COMUNIDAD" activeClassName="active" partiallyActive={true}>
+          <Link
+            className="nav__item"
+            to="/comunidad"
+            key="COMUNIDAD"
+            activeClassName="active"
+            partiallyActive={true}
+          >
             COMUNIDAD
           </Link>
-          <Link className="nav__item" to="/ciudades" key="CIUDADES" activeClassName="active" partiallyActive={true}>
+          <Link
+            className="nav__item"
+            to="/ciudades"
+            key="CIUDADES"
+            activeClassName="active"
+            partiallyActive={true}
+          >
             CIUDADES
           </Link>
           <Link to="/" className="nav__logo" activeClassName="active">
             <Logo />
           </Link>
-          <Link className="nav__item" to="/blog" key="BLOG" activeClassName="active" partiallyActive={true}>
+          <Link
+            className="nav__item"
+            to="/blog"
+            key="BLOG"
+            activeClassName="active"
+            partiallyActive={true}
+          >
             BLOG
           </Link>
           <Link
@@ -59,10 +88,22 @@ const Header = () => {
           >
             CÓDIGO DE CONDUCTA
           </Link>
-          <Link className="nav__item" to="/sponsors" key="SPONSORS" activeClassName="active" partiallyActive={true}>
+          <Link
+            className="nav__item"
+            to="/sponsors"
+            key="SPONSORS"
+            activeClassName="active"
+            partiallyActive={true}
+          >
             SPONSORS
           </Link>
-          <Link className="nav__item" to="/cuentas" key="CUENTAS" activeClassName="active" partiallyActive={true}>
+          <Link
+            className="nav__item"
+            to="/cuentas"
+            key="CUENTAS"
+            activeClassName="active"
+            partiallyActive={true}
+          >
             CUENTAS
           </Link>
         </nav>

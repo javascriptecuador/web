@@ -3,67 +3,65 @@
 @tailwind components;
 
 h1 {
-    @apply text-5xl;
+  @apply text-5xl;
 }
 
 h2 {
-    @apply text-4xl;
+  @apply text-4xl;
 }
 
 h3 {
-    @apply text-3xl;
+  @apply text-3xl;
 }
 
 h4 {
-    @apply text-2xl;
+  @apply text-2xl;
 }
 
 /* Fixes ol styling for markdown */
 ol {
-    @apply list-decimal my-3 ml-6 font-medium text-2xl;
+  @apply list-decimal my-3 ml-6 font-medium text-2xl;
 }
-
 
 /*! purgecss end ignore */
 @tailwind utilities;
 
 body {
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* Contenedor con padding */
 
 .ec-container {
-    padding-left: 5%;
-    padding-right: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .section-title {
-    font-size: 50px;
-    font-weight: bold;
-    font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
 }
 
 .small-widget {
-    display: none;
-    position: absolute;
-    z-index: 500;
+  display: none;
+  position: absolute;
+  z-index: 500;
 }
 
 @media only screen and (min-width: 560px) {
-    .small-widget {
-        display: block;
-    }
+  .small-widget {
+    display: block;
+  }
 }
 
 @keyframes show-up {
-    0% {
-        opacity: 0;
-        transform: translateY(10px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0px);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
-

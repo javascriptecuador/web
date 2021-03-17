@@ -1,11 +1,12 @@
-import React from 'react';
-import styles from './sponsors-section.module.css';
-import { useStaticQuery, graphql } from 'gatsby'
-import PersonasSection from '../personas-section/personas-section';
+import React from "react";
+import styles from "./sponsors-section.module.css";
+import { useStaticQuery, graphql } from "gatsby";
+import PersonasSection from "../personas-section/personas-section";
 
 const SponsorsSection = () => {
-  const title = "Sponsors"
-  const description = "Estos son nuestros sponsors que hacen posible los eventos"
+  const title = "Sponsors";
+  const description =
+    "Estos son nuestros sponsors que hacen posible los eventos";
   const data = useStaticQuery(graphql`
     query getSponsors {
       allSponsorsJson {
@@ -34,6 +35,6 @@ const SponsorsSection = () => {
       />
     </div>
   );
-}
+};
 
 export default SponsorsSection;

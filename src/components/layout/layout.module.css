@@ -1,19 +1,19 @@
 /* Componente Layout */
 
 .layout {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    background-repeat: no-repeat;
-    background-position: right top;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-position: right top;
 }
 
 @media only screen and (max-width: 992px) {
-    .layout {
-        background-size: 200%;
-    }
+  .layout {
+    background-size: 200%;
+  }
 }
 
 .mainContent {
-    flex: 1;
+  flex: 1;
 }

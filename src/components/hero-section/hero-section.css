@@ -2,103 +2,100 @@
  * Styles For the Hero Section
  */
 .hero-section {
-    padding-top: 5em;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
+  padding-top: 5em;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media only screen and (min-width: 800px) {
-    .hero-section {
-        padding-bottom: .5em;
-    }
+  .hero-section {
+    padding-bottom: 0.5em;
+  }
 }
 
 @media only screen and (min-width: 1059px) {
-    .hero-section {
-        padding-bottom: 1em;
-    }
+  .hero-section {
+    padding-bottom: 1em;
+  }
 }
 
 @media only screen and (min-width: 1296px) {
-    .hero-section {
-        padding-bottom: 7em;
-    }
+  .hero-section {
+    padding-bottom: 7em;
+  }
 }
 
 .hero-text {
-    width: 100%;
-    padding-bottom: 2em;
-    animation: show-up 300ms ease-in-out forwards;
+  width: 100%;
+  padding-bottom: 2em;
+  animation: show-up 300ms ease-in-out forwards;
 }
 
 @media (min-width: 1059px) {
-    .hero-text {
-        width: 45%;
-        padding-bottom: 0;
-
-    }
+  .hero-text {
+    width: 45%;
+    padding-bottom: 0;
+  }
 }
 
 @media (min-width: 1190px) {
-    .hero-text {
-        padding-bottom: 2em;
-
-    }
+  .hero-text {
+    padding-bottom: 2em;
+  }
 }
 
 .hero-title {
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 48px;
-    letter-spacing: 1px;
-    color: #091133;
-    margin-bottom: .6em;
-    font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 1px;
+  color: #091133;
+  margin-bottom: 0.6em;
+  font-family: "Roboto", sans-serif;
 }
 
 .hero-subtitle {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 28px;
-    letter-spacing: 1px;
-    color: #4E4E4E;
-    margin-bottom: 1.5em;
-    font-family: "Roboto", sans-serif;
-    background-color: transparent;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  color: #4e4e4e;
+  margin-bottom: 1.5em;
+  font-family: "Roboto", sans-serif;
+  background-color: transparent;
 }
 
 /* Ecuador Map */
 .map-container {
-    position: relative;
-    display: none;
-    animation: scale-up 600ms ease-in-out forwards;
+  position: relative;
+  display: none;
+  animation: scale-up 600ms ease-in-out forwards;
 }
 
 .ec-map {
-    top: 0px;
-    right: 3%;
-    position: absolute;
-    z-index: 500;
-    width: 100%;
+  top: 0px;
+  right: 3%;
+  position: absolute;
+  z-index: 500;
+  width: 100%;
 }
 
 @media only screen and (min-width: 1059px) {
-    .map-container {
-        min-width: 35em;
-        display: block;
-    }
+  .map-container {
+    min-width: 35em;
+    display: block;
+  }
 }
 
-
 @keyframes scale-up {
-    0% {
-        transform: scale(0);
-    }
-    90% {
-        transform: scale(1.1);
-    }
-    100% {
-        transform: scale(1);
-    }
+  0% {
+    transform: scale(0);
+  }
+  90% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }

@@ -1,10 +1,10 @@
 import React from "react";
-import styles from './events.module.css';
-import Carousel from '../UI/carousel/carousel';
-import Card from '../UI/card/card';
+import styles from "./events.module.css";
+import Carousel from "../UI/carousel/carousel";
+import Card from "../UI/card/card";
 import eventos from "../../constants/eventos";
-import triangle from "../../images/widgets/triangle.svg"
-import bracketsWidget from '../../images/widgets/brackets2.svg'
+import triangle from "../../images/widgets/triangle.svg";
+import bracketsWidget from "../../images/widgets/brackets2.svg";
 
 const Events = () => {
   return (
@@ -30,10 +30,16 @@ const Events = () => {
           )
         )}
       </Carousel>
-      <img className={`small-widget ${styles.events__triangle}`} src={triangle} />
-      <img className={`small-widget ${styles.events__bracket}`} src={bracketsWidget} />
+      <img
+        className={`small-widget ${styles.events__triangle}`}
+        src={triangle}
+      />
+      <img
+        className={`small-widget ${styles.events__bracket}`}
+        src={bracketsWidget}
+      />
     </section>
   );
-}
+};
 
-export default Events
+export default Events;

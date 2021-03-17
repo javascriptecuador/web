@@ -1,11 +1,12 @@
-import React from 'react';
-import PersonasSection from '../personas-section/personas-section';
-import styles from './maintainers.module.css';
-import { useStaticQuery, graphql } from 'gatsby'
+import React from "react";
+import PersonasSection from "../personas-section/personas-section";
+import styles from "./maintainers.module.css";
+import { useStaticQuery, graphql } from "gatsby";
 
 const Maintainers = () => {
-  const title = "Mantenedores"
-  const description = "Este es el grupo de mantenedores que hacen posible los eventos"
+  const title = "Mantenedores";
+  const description =
+    "Este es el grupo de mantenedores que hacen posible los eventos";
   const data = useStaticQuery(graphql`
     query getMaintainers {
       allMaintainersJson {
@@ -34,8 +35,6 @@ const Maintainers = () => {
       />
     </div>
   );
-}
-
-
+};
 
 export default Maintainers;

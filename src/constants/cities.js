@@ -1,10 +1,10 @@
-import ambatoImg from '../images/cities/ambato.jpg';
-import cuencaImg from '../images/cities/cuenca.jpg';
-import guayaquilImg from '../images/cities/guayaquil.jpg';
-import latacungaImg from '../images/cities/latacunga.jpg';
-import lojaImg from '../images/cities/loja.jpg';
-import quitoImg from '../images/cities/quito.jpg';
-import riobambaImg from '../images/cities/riobamba.jpg';
+import ambatoImg from "../images/cities/ambato.jpg";
+import cuencaImg from "../images/cities/cuenca.jpg";
+import guayaquilImg from "../images/cities/guayaquil.jpg";
+import latacungaImg from "../images/cities/latacunga.jpg";
+import lojaImg from "../images/cities/loja.jpg";
+import quitoImg from "../images/cities/quito.jpg";
+import riobambaImg from "../images/cities/riobamba.jpg";
 
 const cities = [
   {

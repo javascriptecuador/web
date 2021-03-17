@@ -5,24 +5,24 @@ import rightArrow from "../../../images/icons/chevron-right.svg";
 
 const Carousel = ({ children }) => {
   const [counter, setCounter] = useState(0);
-  const [width, setwidth] = useState(0)
-  const carouselRef = useRef(null)
-  const cardWidth = 291
+  const [width, setwidth] = useState(0);
+  const carouselRef = useRef(null);
+  const cardWidth = 291;
   // Card width plus margin
-  const cardWidthTotal = cardWidth + 32
+  const cardWidthTotal = cardWidth + 32;
 
   /**
    * Methods to move the carousel
    */
   const goToLeft = () => {
     setCounter((prevCount) => prevCount - 1);
-  }
+  };
   const goToRight = () => {
-    setCounter(prevCount => prevCount + 1)
-  }
+    setCounter((prevCount) => prevCount + 1);
+  };
 
-  let offset = - counter * cardWidthTotal;
-  let slideStyle = {transform: `translateX(${offset}px)`};
+  let offset = -counter * cardWidthTotal;
+  let slideStyle = { transform: `translateX(${offset}px)` };
 
   let leftButton = (
     <button className="left-arrow" onClick={goToLeft}>
@@ -50,15 +50,16 @@ const Carousel = ({ children }) => {
 
   const handleResize = () => {
     setwidth(carouselRef.current.offsetWidth);
-  }
+  };
 
-  const totalCards = children.length
-  const minCards = Math.floor(width / cardWidth) >= 1 ? Math.floor(width / cardWidth) : 1
+  const totalCards = children.length;
+  const minCards =
+    Math.floor(width / cardWidth) >= 1 ? Math.floor(width / cardWidth) : 1;
   const cardsShown = minCards + counter;
 
   // If all cards were shown, don't display next button
   if (cardsShown >= totalCards) {
-    rightButton = null
+    rightButton = null;
   }
 
   return (
@@ -71,6 +72,5 @@ const Carousel = ({ children }) => {
     </div>
   );
 };
-
 
 export default Carousel;

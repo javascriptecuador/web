@@ -1,8 +1,8 @@
 .blog {
-    margin: 2em 6em 4em;
+  margin: 2em 6em 4em;
 }
 
 .blog__title {
-    text-align: center;
-    font-weight: 700;
+  text-align: center;
+  font-weight: 700;
 }

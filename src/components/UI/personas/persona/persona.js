@@ -1,22 +1,31 @@
-import React from 'react';
-import styles from './persona.module.css';
-import PropTypes from 'prop-types'
-import emailImg from '../../../../images/icons/email.svg'
-import githubImg from '../../../../images/icons/github-small.svg'
-import twitterImg from '../../../../images/icons/twitter-small.svg'
-import websiteImg from '../../../../images/icons/world.svg'
+import React from "react";
+import styles from "./persona.module.css";
+import PropTypes from "prop-types";
+import emailImg from "../../../../images/icons/email.svg";
+import githubImg from "../../../../images/icons/github-small.svg";
+import twitterImg from "../../../../images/icons/twitter-small.svg";
+import websiteImg from "../../../../images/icons/world.svg";
 
-const Persona = ({ photo, name, rol, description, github, website, email, twitter }) => {
-  let githubIcon = null
+const Persona = ({
+  photo,
+  name,
+  rol,
+  description,
+  github,
+  website,
+  email,
+  twitter,
+}) => {
+  let githubIcon = null;
   if (github) {
     githubIcon = (
       <a className={styles.persona__icon} href={github}>
         <img src={githubImg} />
       </a>
-    )
+    );
   }
 
-  let websiteIcon = null
+  let websiteIcon = null;
   if (website) {
     websiteIcon = (
       <a className={styles.persona__icon} href={website}>
@@ -25,7 +34,7 @@ const Persona = ({ photo, name, rol, description, github, website, email, twitte
     );
   }
 
-  let emailIcon = null
+  let emailIcon = null;
   if (email) {
     emailIcon = (
       <a className={styles.persona__icon} href={email}>
@@ -34,7 +43,7 @@ const Persona = ({ photo, name, rol, description, github, website, email, twitte
     );
   }
 
-  let twitterIcon = null
+  let twitterIcon = null;
   if (twitter) {
     twitterIcon = (
       <a className={styles.persona__icon} href={twitter}>
@@ -47,7 +56,7 @@ const Persona = ({ photo, name, rol, description, github, website, email, twitte
     <div className={styles.persona}>
       <div className={styles.persona__body}>
         <div className={styles.persona__photo}>
-          <img src={photo} alt={name}/>
+          <img src={photo} alt={name} />
         </div>
         <div className={styles.persona__text}>
           <h4 className={styles.persona__name}>{name}</h4>
@@ -63,7 +72,7 @@ const Persona = ({ photo, name, rol, description, github, website, email, twitte
       </div>
     </div>
   );
-}
+};
 
 Persona.propTypes = {
   photo: PropTypes.string.isRequired,

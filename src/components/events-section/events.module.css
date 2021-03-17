@@ -1,11 +1,11 @@
 .events {
-  background: #F2F2F2;
+  background: #f2f2f2;
   height: 840px;
   padding-top: 10em;
   position: relative;
 }
 
-.events__title{
+.events__title {
   margin-bottom: 1em;
   padding-right: 1em;
   text-align: right;
@@ -29,9 +29,9 @@
 }
 
 .events__bracket {
-    bottom: -.6em;
-    right: 15em;
-    display: none;
+  bottom: -0.6em;
+  right: 15em;
+  display: none;
 }
 
 @media only screen and (min-width: 567px) {

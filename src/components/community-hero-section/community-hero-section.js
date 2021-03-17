@@ -1,32 +1,32 @@
-import React from 'react';
-import './community-hero-section.css';
-import CardSection from './card-section/card-section';
+import React from "react";
+import "./community-hero-section.css";
+import CardSection from "./card-section/card-section";
 
 const communityHeroSection = () => {
   const cards = [
     {
-      title: 'Organizar un Meetup',
+      title: "Organizar un Meetup",
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus accumsan sapien a elementum. Vestibulum nibh nisi, semper sit amet egestas non, blandit id turpis. Nam accumsan lectus et ultrices lacinia. In vehicula, odio eu molestie pretium, eros eros hendrerit arcu, ut efficitur quam dolor id diam. Nam sed massa scelerisque, dictum quam vel, egestas metus.',
-      txtButton: 'Llenar formulario para organizar un Meetup',
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus accumsan sapien a elementum. Vestibulum nibh nisi, semper sit amet egestas non, blandit id turpis. Nam accumsan lectus et ultrices lacinia. In vehicula, odio eu molestie pretium, eros eros hendrerit arcu, ut efficitur quam dolor id diam. Nam sed massa scelerisque, dictum quam vel, egestas metus.",
+      txtButton: "Llenar formulario para organizar un Meetup",
       descriptionExample:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus accumsan sapien a elementum. Vestibulum nibh nisi, semper sit amet egestas non, blandit id turpis. Nam accumsan lectus et ultrices lacinia. In vehicula, odio eu molestie pretium.',
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus accumsan sapien a elementum. Vestibulum nibh nisi, semper sit amet egestas non, blandit id turpis. Nam accumsan lectus et ultrices lacinia. In vehicula, odio eu molestie pretium.",
     },
     {
-      title: 'Impartir una charla',
+      title: "Impartir una charla",
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus accumsan sapien a elementum. Vestibulum nibh nisi, semper sit amet egestas non, blandit id turpis. Nam accumsan lectus et ultrices lacinia. In vehicula, odio eu molestie pretium, eros eros hendrerit arcu, ut efficitur quam dolor id diam. Nam sed massa scelerisque, dictum quam vel, egestas metus.',
-      txtButton: 'Llenar formulario para impartir charla',
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus accumsan sapien a elementum. Vestibulum nibh nisi, semper sit amet egestas non, blandit id turpis. Nam accumsan lectus et ultrices lacinia. In vehicula, odio eu molestie pretium, eros eros hendrerit arcu, ut efficitur quam dolor id diam. Nam sed massa scelerisque, dictum quam vel, egestas metus.",
+      txtButton: "Llenar formulario para impartir charla",
       descriptionExample:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus accumsan sapien a elementum. Vestibulum nibh nisi, semper sit amet egestas non, blandit id turpis. Nam accumsan lectus et ultrices lacinia. In vehicula, odio eu molestie pretium.',
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus accumsan sapien a elementum. Vestibulum nibh nisi, semper sit amet egestas non, blandit id turpis. Nam accumsan lectus et ultrices lacinia. In vehicula, odio eu molestie pretium.",
     },
     {
-      title: 'Escribir / Traducir un Artículo',
+      title: "Escribir / Traducir un Artículo",
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus accumsan sapien a elementum. Vestibulum nibh nisi, semper sit amet egestas non, blandit id turpis. Nam accumsan lectus et ultrices lacinia. In vehicula, odio eu molestie pretium, eros eros hendrerit arcu, ut efficitur quam dolor id diam. Nam sed massa scelerisque, dictum quam vel, egestas metus.',
-      txtButton: 'Llenar formulario para escribir un artículo',
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus accumsan sapien a elementum. Vestibulum nibh nisi, semper sit amet egestas non, blandit id turpis. Nam accumsan lectus et ultrices lacinia. In vehicula, odio eu molestie pretium, eros eros hendrerit arcu, ut efficitur quam dolor id diam. Nam sed massa scelerisque, dictum quam vel, egestas metus.",
+      txtButton: "Llenar formulario para escribir un artículo",
       descriptionExample:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus accumsan sapien a elementum. Vestibulum nibh nisi, semper sit amet egestas non, blandit id turpis. Nam accumsan lectus et ultrices lacinia. In vehicula, odio eu molestie pretium.',
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus accumsan sapien a elementum. Vestibulum nibh nisi, semper sit amet egestas non, blandit id turpis. Nam accumsan lectus et ultrices lacinia. In vehicula, odio eu molestie pretium.",
     },
   ];
   return (
@@ -44,7 +44,7 @@ const communityHeroSection = () => {
         ))}
       </div>
     </div>
-    )
-}
+  );
+};
 
 export default communityHeroSection;

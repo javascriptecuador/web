@@ -1,8 +1,8 @@
-import React from 'react';
-import styles from './contributors.module.css';
-import PersonasSection from '../personas-section/personas-section';
-import Button from '../UI/button/button';
-import { useStaticQuery, graphql } from 'gatsby'
+import React from "react";
+import styles from "./contributors.module.css";
+import PersonasSection from "../personas-section/personas-section";
+import Button from "../UI/button/button";
+import { useStaticQuery, graphql } from "gatsby";
 
 const Contributors = () => {
   const data = useStaticQuery(graphql`
@@ -24,8 +24,9 @@ const Contributors = () => {
       }
     }
   `);
-  const title = "Contribuidores"
-  const description = "Personas que han contribuido con su conocimiento en nuestra comunidad."
+  const title = "Contribuidores";
+  const description =
+    "Personas que han contribuido con su conocimiento en nuestra comunidad.";
   return (
     <div className={styles.contributors}>
       <PersonasSection
@@ -38,6 +39,6 @@ const Contributors = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Contributors;

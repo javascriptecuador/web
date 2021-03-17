@@ -1,44 +1,44 @@
 .markers {
-    position: absolute;
-    top: 4.2em;
-    left: 13em;
-    z-index: 600;
-    width: 128.44px;
+  position: absolute;
+  top: 4.2em;
+  left: 13em;
+  z-index: 600;
+  width: 128.44px;
 }
 
 .markers .marker {
-    opacity: 0;
+  opacity: 0;
 }
 
 .markers .marker:nth-child(1) {
-    animation: marker-showup 300ms ease-in-out 600ms forwards;
+  animation: marker-showup 300ms ease-in-out 600ms forwards;
 }
 .markers .marker:nth-child(2) {
-    animation: marker-showup 300ms ease-in-out 800ms forwards;
+  animation: marker-showup 300ms ease-in-out 800ms forwards;
 }
 .markers .marker:nth-child(3) {
-    animation: marker-showup 300ms ease-in-out 1000ms forwards;
+  animation: marker-showup 300ms ease-in-out 1000ms forwards;
 }
 .markers .marker:nth-child(4) {
-    animation: marker-showup 300ms ease-in-out 1200ms forwards;
+  animation: marker-showup 300ms ease-in-out 1200ms forwards;
 }
 .markers .marker:nth-child(5) {
-    animation: marker-showup 300ms ease-in-out 1400ms forwards;
+  animation: marker-showup 300ms ease-in-out 1400ms forwards;
 }
 .markers .marker:nth-child(6) {
-    animation: marker-showup 300ms ease-in-out 1600ms forwards;
+  animation: marker-showup 300ms ease-in-out 1600ms forwards;
 }
 .markers .marker:nth-child(7) {
-    animation: marker-showup 300ms ease-in-out 1800ms forwards;
+  animation: marker-showup 300ms ease-in-out 1800ms forwards;
 }
 
 @keyframes marker-showup {
-    0% {
-        opacity: 0;
-        transform: scaleY(0);
-    }
-    100% {
-        opacity: 1;
-        transform: scaleY(1);
-    }
+  0% {
+    opacity: 0;
+    transform: scaleY(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scaleY(1);
+  }
 }

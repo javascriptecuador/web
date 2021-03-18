@@ -10,6 +10,7 @@
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-gatsby": "^0.5.14",
+    "classnames": "^2.2.6",
     "gatsby": "^2.24.85",
     "gatsby-legacy-polyfills": "0.0.5",
     "gatsby-plugin-manifest": "2.4.31",

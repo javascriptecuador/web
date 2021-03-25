@@ -20,6 +20,4 @@ const generateDistribution = (cardsLength) => {
   });
 };
 
-export {
-  generateDistribution,
-}
+export { generateDistribution };

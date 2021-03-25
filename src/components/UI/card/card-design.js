@@ -38,10 +38,7 @@ export const CardDesign = ({ data, optionalData, styles }) => {
   ));
 
   return (
-    <Card
-      bgColor={styles.bg_color}
-      allPadding={styles.padding}
-    >
+    <Card bgColor={styles.bg_color} allPadding={styles.padding}>
       <CardImg bgImg={url_img} maxHeight={styles.viewport_img_height}></CardImg>
       <CardBody>
         <CardContent>

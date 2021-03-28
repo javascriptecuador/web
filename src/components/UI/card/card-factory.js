@@ -8,23 +8,23 @@ import { card } from "../../../constants/card.config";
 const CardFactory = ({ entry }) => {
   const {
     id,
+    img,
     type,
     title,
     subtitle,
     description,
     description_title,
     url_entry,
-    url_img,
     direction,
     ...others
   } = entry;
   const dataEntry = {
     id,
+    img,
     title,
     subtitle,
     description,
     description_title,
-    url_img,
     url_entry,
     direction,
   };

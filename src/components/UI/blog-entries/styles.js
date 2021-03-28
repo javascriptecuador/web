@@ -1,5 +1,12 @@
 import styled from "styled-components";
-import { Card, CardContent } from "../card/styles";
+import {
+  Card,
+  CardContent,
+  CardImg,
+  CardTitle,
+  CardFooter,
+} from "../card/styles";
+import { card } from "../../../constants/card.config";
 
 const BlogGrid = styled.div`
   display: grid;
@@ -17,7 +24,7 @@ const BlogGrid = styled.div`
   /* Extra arge devices (extra large desktops, 1201px and up) */
   @media (min-width: 1201px) {
     & {
-      grid-template-columns: 20% 54% 20%;
+      grid-template-columns: auto 45% auto;
     }
   }
 `;
@@ -30,7 +37,7 @@ const BlogCard = styled.div`
   }
 
   & ${CardContent} {
-    padding-left: ${(props) => props.paddingLeft}em;
+    padding-left: ${(props) => props.paddingLeftContent}em;
   }
 
   /* Small devices (landscape phones, 320px and up) */
@@ -60,7 +67,12 @@ const BlogCard = styled.div`
     }
 
     & ${CardContent} {
-      padding-left: ${(props) => props.paddingLeft}em !important;
+      padding-left: ${(props) => props.paddingLeftContent}em !important;
+      padding-top: ${(props) => props.paddingTopContent}em !important;
+    }
+
+    & ${CardImg} {
+      width: ${(props) => props.widthImg} !important;
     }
   }
 
@@ -72,6 +84,20 @@ const BlogCard = styled.div`
 
     & ${CardContent} {
       padding-left: 1em;
+      padding-top: 0;
+    }
+
+    & ${CardImg} {
+      width: ${card.blog.viewport_img_height}em;
+      background-position: left center;
+    }
+
+    & ${CardTitle} {
+      padding-bottom: ${(props) => props.paddingBottomTitle}em;
+    }
+
+    & ${CardFooter} {
+      padding-block: ${(props) => props.paddingBlockFooter}em;
     }
   }
 `;

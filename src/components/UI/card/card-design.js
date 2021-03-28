@@ -17,11 +17,11 @@ import {
 export const CardDesign = ({ data, optionalData, styles }) => {
   const {
     id,
+    img,
     title,
     subtitle,
     description,
     description_title,
-    url_img,
     url_entry,
   } = data;
   const optDataKeys = Object.keys(optionalData);
@@ -39,7 +39,7 @@ export const CardDesign = ({ data, optionalData, styles }) => {
 
   return (
     <Card bgColor={styles.bg_color} allPadding={styles.padding}>
-      <CardImg bgImg={url_img} maxHeight={styles.viewport_img_height}></CardImg>
+      <CardImg bgImg={img} maxHeight={styles.viewport_img_height}></CardImg>
       <CardBody>
         <CardContent>
           <CardTitle

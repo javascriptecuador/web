@@ -1,7 +1,7 @@
 export const card = {
   blog: {
     link_color: "blue",
-    viewport_img_height: 13,
+    viewport_img_height: 10,
     spacing: 1,
   },
   city: {

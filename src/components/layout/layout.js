@@ -4,7 +4,7 @@ import Footer from "../footer/footer";
 import Header from "../header/header";
 import styles from "./layout.module.css";
 import pathImg from "../../images/background/path.svg";
-import BlogSection from "../blog-section/blog-section";
+import RenderBlogSection from "../blog-section/blog-section";
 import Subscribe from "../subscribe/subscribe";
 
 const Layout = ({ isHome, children }) => {
@@ -13,7 +13,7 @@ const Layout = ({ isHome, children }) => {
 
   if (isHome) {
     background = pathImg;
-    blogSection = <BlogSection />;
+    blogSection = <RenderBlogSection />;
   }
 
   return (

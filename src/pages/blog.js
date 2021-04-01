@@ -15,7 +15,14 @@ function BlogPage(articulos) {
         <ul>
           {articulos.map((articulo) => (
             <li key={articulo.id}>
-              <Link to={`/blog/${articulo.slug}`}>{articulo.title}</Link>
+              <p>{articulo.title}</p>
+              <p>
+                {articulo.description_title}: {articulo.description}
+              </p>
+              <Link to={articulo.url_entry}>Leer más</Link>
+              <p>{articulo.author}</p>
+              <p>{articulo.date}</p>
+              <p>{articulo.timeago}</p>
             </li>
           ))}
         </ul>
@@ -29,14 +36,20 @@ function renderBlogPage() {
     <StaticQuery
       query={graphql`
         query BlogList {
-          articulos: allMdx {
-            edges {
-              node {
-                id
-                slug
-                frontmatter {
-                  title
-                  description
+          articulos: allMdx(sort: { fields: frontmatter___date, order: DESC }) {
+            nodes {
+              id
+              path: slug
+              timeToRead
+              frontmatter {
+                date(formatString: "MMMM DD, YYYY", locale: "es")
+                description
+                title
+                author {
+                  name
+                }
+                img {
+                  publicURL
                 }
               }
             }
@@ -44,13 +57,19 @@ function renderBlogPage() {
         }
       `}
       render={(data) => {
-        const articulosFormateados = data.articulos.edges.map((articulo) => {
+        const articulosFormateados = data.articulos.nodes.map((articulo) => {
           return {
-            ...articulo.node.frontmatter,
-            slug: articulo.node.slug,
-            id: articulo.node.id,
+            ...articulo.frontmatter,
+            id: articulo.id,
+            url_entry: `/blog/${articulo.path}`,
+            img: articulo.frontmatter.img.publicURL,
+            author: articulo.frontmatter.author.name,
+            timeago: `${articulo.timeToRead} min. Lectura`,
+            description_title: "Descripción",
+            type: "blog",
           };
         });
+
         return BlogPage(articulosFormateados);
       }}
     />

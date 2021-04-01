@@ -19,7 +19,7 @@ function BlogPage(articulos) {
               <p>
                 {articulo.description_title}: {articulo.description}
               </p>
-              <Link to={`/blog/${articulo.url_entry}`}>Leer más</Link>
+              <Link to={articulo.url_entry}>Leer más</Link>
               <p>{articulo.author}</p>
               <p>{articulo.date}</p>
               <p>{articulo.timeago}</p>

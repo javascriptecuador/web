@@ -50,4 +50,4 @@ export default [
     resumen: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit officia maiores repudiandae!`,
     url: "#",
   },
-]
+];

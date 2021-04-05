@@ -11,7 +11,7 @@ const ComunidadPage = () => (
       keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
       title="Home"
     />
-    <CommunityHeroSection/>
+    <CommunityHeroSection />
     <Maintainers />
     <Contributors />
   </Layout>

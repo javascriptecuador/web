@@ -1,10 +1,10 @@
 .personas {
-    box-sizing: border-box;
-    padding: 9em 0 1em;
-    /* CSS Grid */
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-    column-gap: 3rem;
-    row-gap: 12em;
-    justify-items: center;
+  box-sizing: border-box;
+  padding: 9em 0 1em;
+  /* CSS Grid */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  column-gap: 3rem;
+  row-gap: 12em;
+  justify-items: center;
 }

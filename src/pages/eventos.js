@@ -12,4 +12,4 @@ const Eventos = () => (
   </Layout>
 );
 
-export default Eventos ;
+export default Eventos;

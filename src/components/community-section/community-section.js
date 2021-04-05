@@ -4,7 +4,7 @@ import CommunityDescription from "./community-description/community-description"
 import PhotoSlider from "./photo-slider/photo-slider";
 import circleWidget from "../../images/widgets/circle.svg";
 import squareWidget from "../../images/widgets/square.svg";
-import photos from '../../constants/slider'
+import photos from "../../constants/slider";
 import "./community-section.css";
 
 const CommunitySection = () => (

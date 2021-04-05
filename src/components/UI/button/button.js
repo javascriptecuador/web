@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import styles from "./button.module.css";
 
 const Button = ({ type, children }) => {
-
   let typeStyles = "";
   if (type === "primary") {
     typeStyles = styles.buttonPrimary;

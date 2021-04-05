@@ -18,7 +18,10 @@ const Card = ({
 }) => (
   <div className={styles.card}>
     <div className={styles.card__header}>
-      <div className={styles.card__imgViewport} style={{ height: viewportHeight }}>
+      <div
+        className={styles.card__imgViewport}
+        style={{ height: viewportHeight }}
+      >
         <img src={imgURL} />
       </div>
     </div>
@@ -29,20 +32,27 @@ const Card = ({
           fontSize: topicFontSize,
           marginBottom: textSpacing,
           lineHeight,
-        }}>
+        }}
+      >
         {topic}
       </h5>
       <p className={styles.card__date} style={{ lineHeight }}>
         {dateTime}
       </p>
-      <div className={styles.card__description} style={{ marginTop: textSpacing }}>
+      <div
+        className={styles.card__description}
+        style={{ marginTop: textSpacing }}
+      >
         <p className={styles.card__descriptionText}>
-          <strong className={styles.card__descriptionTitle}>{descriptionTitle}:</strong>
+          <strong className={styles.card__descriptionTitle}>
+            {descriptionTitle}:
+          </strong>
           {description}{" "}
           <Link
             to={link}
             className={styles.card_readmore}
-            style={{ color: readMoreColor }}>
+            style={{ color: readMoreColor }}
+          >
             Leer más
           </Link>
         </p>

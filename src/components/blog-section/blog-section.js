@@ -1,8 +1,6 @@
-import React from 'react';
-import styles from './blog-section.module.css';
+import React from "react";
+import styles from "./blog-section.module.css";
 
-const BlogSection = () => (
-  <div className={styles.blogSection}></div>
-);
+const BlogSection = () => <div className={styles.blogSection}></div>;
 
 export default BlogSection;

@@ -93,7 +93,7 @@ header {
 }
 
 .nav__item::after {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   height: 5px;
@@ -173,7 +173,7 @@ header {
     transform: scaleX(0);
   }
 
-  .nav__item:hover::after{
+  .nav__item:hover::after {
     transform: scaleX(1);
   }
 

@@ -12,4 +12,4 @@ const Ciudades = () => (
   </Layout>
 );
 
-export default Ciudades ;
+export default Ciudades;

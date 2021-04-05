@@ -12,4 +12,4 @@ const Cuentas = () => (
   </Layout>
 );
 
-export default Cuentas ;
+export default Cuentas;

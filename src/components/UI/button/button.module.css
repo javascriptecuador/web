@@ -16,37 +16,34 @@
 }
 
 .button--primary {
-    color: #737373;
-    background-color: #f7e018;
-    border-color: #f7e018;
+  color: #737373;
+  background-color: #f7e018;
+  border-color: #f7e018;
 }
 
 .button--primary:hover {
-    color: #f7e018;
-    background-color: transparent;
+  color: #f7e018;
+  background-color: transparent;
 }
 
 .button--secondary {
-    color: #f7e018;
-    background-color: transparent;
-    border-color: #f7e018;
+  color: #f7e018;
+  background-color: transparent;
+  border-color: #f7e018;
 }
 
 .button--secondary:hover {
-    color: #737373;
-    background-color: #f7e018;
-    border-color: #f7e018;
+  color: #737373;
+  background-color: #f7e018;
+  border-color: #f7e018;
 }
 
 .button--tertiary {
-    color: #fff;
-    background-color: #27ae60;
-    border-radius: 10px;
+  color: #fff;
+  background-color: #27ae60;
+  border-radius: 10px;
 }
 
 .button--tertiary:hover {
-    background-color: #2dca6f;
+  background-color: #2dca6f;
 }
-
-
-

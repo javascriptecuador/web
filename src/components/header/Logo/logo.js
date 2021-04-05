@@ -1,6 +1,6 @@
 import React from "react";
 import escudo from "../../../images/logo-escudo-ec.svg";
-import styles from './logo.module.css';
+import styles from "./logo.module.css";
 
 const Logo = () => (
   <div className={styles.logo}>

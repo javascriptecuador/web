@@ -12,7 +12,7 @@ No importa el grado de experiencia que tengas o las tecnologías con las que tra
 
 ## ¿Cómo contribuir?
 
-Este es nuestro primer repositorio público al que puedes contribuir, conoce más sobre cómo hacerlo en nuestra **[GUÍA DE CONTRIBUCIÓN](https://github.com/javascriptecuador/web/blob/master/CONTRIBUTING.md)**. 
+Este es nuestro primer repositorio público al que puedes contribuir, conoce más sobre cómo hacerlo en nuestra **[GUÍA DE CONTRIBUCIÓN](https://github.com/javascriptecuador/web/blob/master/CONTRIBUTING.md)**.
 
 En este proyecto se construye el sitio web oficial de la comunidad, así como el blog en el que muy pronto también podrás hacer tus entradas y en el que informaremos de todo lo que esté pasando alrededor de JavaScript y la comuniad, como tutoriales, debates, etc. **[Puedes revisar el prototipo del sitio en Figma](https://www.figma.com/file/w2VP8mKwNivTOGqsdvGMVe/Prototipo-Web-Ecuador.js?node-id=0%3A1)**
 
@@ -46,6 +46,7 @@ Este repositorio es posible gracias a estos excelentes desarrolladores ([emoji k
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 Este proyecto sigue la espicificación [all-contributors](https://github.com/all-contributors/all-contributors). Contribuciones de cualquier tipo son bienvenidas!

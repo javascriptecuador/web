@@ -3,8 +3,7 @@ name: Solicitar Feature
 about: Templete para solicitar mejoras o nuevas funcionalidades en el sitio
 title: "[NUEVO]"
 labels: feature, enhancement
-assignees: ''
-
+assignees: ""
 ---
 
 **Tarea a realizar**  

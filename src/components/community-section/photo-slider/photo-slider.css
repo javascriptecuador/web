@@ -34,7 +34,7 @@
 }
 
 .slick-dots li button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .slick-dots li:not(.slick-active) button:hover {

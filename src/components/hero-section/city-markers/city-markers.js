@@ -1,6 +1,6 @@
-import React from 'react';
-import {Link} from 'gatsby'
-import './city-markers.css';
+import React from "react";
+import { Link } from "gatsby";
+import "./city-markers.css";
 
 const CityMarkers = () => (
   <svg
@@ -9,7 +9,8 @@ const CityMarkers = () => (
     viewBox="0 0 169 345"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    className="markers">
+    className="markers"
+  >
     {/* Loja */}
     <Link to="#" className="marker">
       <path

@@ -28,7 +28,7 @@ const BlogEntry = ({ children }) => {
     <Layout>
       <SEO keywords={[`gatsby`, `react`]} title={title} />
       <section className={styles.blog}>
-       <h1 className={styles.blog__title}>{title}</h1>
+        <h1 className={styles.blog__title}>{title}</h1>
         <Author
           name={name}
           photo={photo}

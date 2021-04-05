@@ -2,34 +2,34 @@
  * Styles For the Social Networks Component
  */
 .social-networks {
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: justify;
-    margin-top: 3em;
-    margin-bottom: 0;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: justify;
+  margin-top: 3em;
+  margin-bottom: 0;
 }
 
 @media only screen and (min-width: 800px) {
-    .social-networks {
-        margin-top: 0;
-        margin-bottom: 2em;
-    }
+  .social-networks {
+    margin-top: 0;
+    margin-bottom: 2em;
+  }
 }
 
 @media only screen and (min-width: 1190px) {
-    .social-networks {
-        margin-top: 3em;
-        margin-bottom: 0;
-    }
+  .social-networks {
+    margin-top: 3em;
+    margin-bottom: 0;
+  }
 }
 
 .social-networks div {
-    margin-top: 1.5em;
-    max-width: 100%;
-    display: flex;
+  margin-top: 1.5em;
+  max-width: 100%;
+  display: flex;
 }
 
 .social-networks a {
-    margin-right: 2em;
+  margin-right: 2em;
 }

@@ -24,7 +24,8 @@ const Layout = ({ isHome, children }) => {
       <Header />
       <main className={styles.mainContent}>{children}</main>
       <Subscribe />
-      {blogSection}
+      {/* Comment this section until it will be implemented */}
+      {/* {blogSection} */}
       <Footer />
     </div>
   );

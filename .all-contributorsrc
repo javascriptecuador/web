@@ -107,6 +107,27 @@
         "doc",
         "code"
       ]
+    },
+    {
+      "login": "Leninner",
+      "name": "Lenin Mazabanda",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67031243?v=4",
+      "profile": "https://www.linkedin.com/in/leninner/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "thegreatyamori",
+      "name": "Jerson Morocho",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20387293?v=4",
+      "profile": "https://jersonalexander.now.sh/",
+      "contributions": [
+        "code",
+        "design",
+        "ideas",
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,

@@ -9,7 +9,7 @@ import cities from "../../constants/cities";
 
 const CitiesSection = () => {
   return (
-    <section className={`ec-container ${styles.cities}`}>
+    <section className={`ec-container ${styles.cities}`} id="ciudades">
       <img
         className={`small-widget ${styles.widget__timesYellow}`}
         src={timesYellowWidget}

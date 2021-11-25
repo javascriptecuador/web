@@ -61,7 +61,7 @@ const Header = () => {
           </Link>
           <Link
             className="nav__item"
-            to="/ciudades"
+            to="#ciudades"
             key="CIUDADES"
             activeClassName="active"
             partiallyActive={true}

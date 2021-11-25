@@ -64,7 +64,7 @@ const Footer = () => (
       </span>
     </p>
 
-    <h2>2019 - 2020 Ecuador.js</h2>
+    <h2>2019 - 2021 Ecuador.js</h2>
     <h3>All rights reserved</h3>
   </footer>
 );

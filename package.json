@@ -41,6 +41,7 @@
   ],
   "license": "MIT",
   "scripts": {
+    "contributors": "all-contributors",
     "analyze:lint": "eslint --ext .jsx --ext .js .",
     "analyze:prettier": "prettier --list-different \"**/*.{css,js,jsx,json,md}\"",
     "analyze": "npm run analyze:lint && npm run analyze:prettier",

@@ -8,7 +8,7 @@ import bracketsWidget from "../../images/widgets/brackets2.svg";
 
 const Events = () => {
   return (
-    <section className={`${styles.events} ec-container`}>
+    <section className={`${styles.events} ec-container`} id="eventos">
       <h2 className={styles.events__title}>Eventos</h2>
       <Carousel>
         {eventos.map(

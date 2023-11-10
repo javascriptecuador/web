@@ -30,7 +30,7 @@ const communityHeroSection = () => {
     },
   ];
   return (
-    <div className="community-hero-section">
+    <section className="community-hero-section" id="como-ayudar">
       <div className="ec-container">
         <h3 className="section__title">¿Cómo ayudar?</h3>
         {cards.map((card, idx) => (
@@ -43,7 +43,7 @@ const communityHeroSection = () => {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

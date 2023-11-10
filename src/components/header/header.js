@@ -52,12 +52,12 @@ const Header = () => {
           </Link>
           <Link
             className="nav__item"
-            to="/comunidad"
-            key="COMUNIDAD"
+            to="#como-ayudar"
+            key="¿COMO AYUDAR?"
             activeClassName="active"
             partiallyActive={true}
           >
-            COMUNIDAD
+            ¿COMO AYUDAR?
           </Link>
           <Link
             className="nav__item"

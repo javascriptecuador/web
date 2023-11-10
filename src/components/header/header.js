@@ -43,7 +43,7 @@ const Header = () => {
           </Link>
           <Link
             className="nav__item"
-            to="/eventos"
+            to="#eventos"
             key="EVENTOS"
             activeClassName="active"
             partiallyActive={true}

@@ -4,8 +4,10 @@ import HeroSection from "../components/hero-section/hero-section";
 import CommunitySection from "../components/community-section/community-section";
 import CitiesSection from "../components/cities-section/cities-section";
 import EventsSection from "../components/events-section/Events";
-import Subscribe from "../components/subscribe/subscribe";
+import Contributors from "../components/contributors/contributors";
+import CommunityHeroSection from "../components/community-hero-section/community-hero-section";
 import SEO from "../components/seo";
+
 
 const IndexPage = () => (
   <Layout isHome={true}>
@@ -20,6 +22,8 @@ const IndexPage = () => (
     <CommunitySection />
     <CitiesSection />
     <EventsSection />
+    <CommunityHeroSection />
+    <Contributors />
   </Layout>
 );
 

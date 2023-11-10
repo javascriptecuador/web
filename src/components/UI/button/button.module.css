@@ -22,18 +22,18 @@
 }
 
 .button--primary:hover {
-  color: #f7e018;
+  color: #000000;
   background-color: transparent;
 }
 
 .button--secondary {
-  color: #f7e018;
+  color: #000000;
   background-color: transparent;
-  border-color: #f7e018;
+  border-color: #000000;
 }
 
 .button--secondary:hover {
-  color: #737373;
+  color: #000000;
   background-color: #f7e018;
   border-color: #f7e018;
 }
